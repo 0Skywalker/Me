@@ -1,0 +1,27 @@
+/* Normal Styles - For mobiles vertical */
+header{
+
+}
+
+body{
+
+}
+
+footer{
+
+}
+
+/* Mobile horizontally or Tablets vertical */
+@media (min-width: 768px) {
+
+}
+
+/* Tablets horizontally and Normal desks */
+@media (min-width: 1024px) {
+
+}
+
+/* large desks */
+@media (min-width: 1200px) {
+
+}
