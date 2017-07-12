@@ -33,6 +33,25 @@ div #projects{
   margin-left: 20px;
 }
 
+div #blog{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background: #E74C3C;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  margin-top: 10px;
+  margin-left: 285px;
+}
+
+div #aboutMe{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background: #F1C40F;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  margin-top: 80px;
+  margin-left: 20px;
+}
 
 
 footer{
