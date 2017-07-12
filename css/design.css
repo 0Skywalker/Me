@@ -40,8 +40,8 @@ table{
 }
 
 div #projects{
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   background: #3498DB;
   text-align: center;
   border-radius: 50%;
@@ -49,8 +49,8 @@ div #projects{
 }
 
 div #blog{
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   background: #E74C3C;
   text-align: center;
   border-radius: 50%;
@@ -58,8 +58,8 @@ div #blog{
 }
 
 div #aboutMe{
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   background: #F1C40F;
   text-align: center;
   border-radius: 50%;
