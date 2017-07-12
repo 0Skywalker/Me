@@ -31,6 +31,7 @@ div #projects{
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   margin-top: 80px;
   margin-left: 20px;
+  text-align: center;
 }
 
 div #blog{
@@ -40,7 +41,8 @@ div #blog{
   background: #E74C3C;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   margin-top: 10px;
-  margin-left: 285px;
+  margin-left: 250px;
+  text-align: center;
 }
 
 div #aboutMe{
@@ -49,8 +51,9 @@ div #aboutMe{
   height: 80px;
   background: #F1C40F;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  margin-top: 80px;
+  margin-top: 10px;
   margin-left: 20px;
+  text-align: center;
 }
 
 
