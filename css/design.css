@@ -1,11 +1,29 @@
 /* Normal Styles - For mobiles vertical */
-header{
+header {
+  margin-top: 40px;
+}
+
+body {
 
 }
 
-body{
+div {
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  line-height: 10px;
+}
+
+div h2{
+  opacity: 1;
+  font-weight: 100;
 
 }
+
+div h5{
+  opacity: .54;
+  font-weight: 100;
+}
+
 
 footer{
 
