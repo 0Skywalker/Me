@@ -27,10 +27,18 @@ div h5{
   text-align: center;
 }
 
+ul{
+  list-style: none;
+}
+
+
 div #projects{
   width: 80px;
   height: 80px;
   background: #3498DB;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 div #blog{
@@ -44,6 +52,8 @@ div #aboutMe{
   height: 80px;
   background: #F1C40F;
 }
+
+
 
 
 footer{
