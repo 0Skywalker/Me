@@ -4,12 +4,12 @@ header {
 }
 
 body {
-  background: green;
+  //background: green;
 }
 
 div {
   line-height: 7px;
-  background: red;
+  //background: red;
 }
 
 div h2{
@@ -32,7 +32,7 @@ table tr td h4{
 }
 
 table{
-  background: blue;
+  //background: blue;
   margin: auto;
   border-spacing:  10px 30px;
   font-family: 'Roboto Mono', monospace;
@@ -50,7 +50,7 @@ div #projects{
 
 div #projects img{
   margin-top: 20px;
-  border-style: solid;
+  //border-style: solid;
 }
 
 div #blog{
@@ -64,7 +64,7 @@ div #blog{
 
 div #blog img{
   margin-top: 20px;
-  border-style: solid;
+  //border-style: solid;
 }
 
 div #aboutMe{
@@ -78,13 +78,11 @@ div #aboutMe{
 
 div #aboutMe img{
   margin-top: 20px;
-  border-style: solid;
+  //border-style: solid;
 }
 
-
-
 footer{
-
+  text-align: center;
 }
 
 /* Mobile horizontally or Tablets vertical */
