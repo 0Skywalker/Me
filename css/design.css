@@ -9,7 +9,9 @@ header {
 }
 
 body {
-  //background: green;
+  background: green;
+  margin-bottom: 40px;
+
 }
 
 div {
@@ -43,7 +45,7 @@ table{
   border-spacing:  10px 30px;
   font-family: 'Roboto Mono', monospace;
   font-weight: 100;
-  //border-style: solid;
+  border-style: solid;
 }
 
 table tr td{
