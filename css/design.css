@@ -1,7 +1,7 @@
 /* Normal Styles - For mobiles vertical */
 header {
   line-height: 7px;
-  background: red;
+  //background: red;
   height: 100px;
   width: 100%;
   left: 0;
@@ -16,6 +16,11 @@ h2{
   text-align: center;
 }
 
+h4{
+  font-weight: 100;
+  opacity: .54;
+}
+
 h5{
   font-family: 'Roboto Mono', monospace;
   opacity: .54;
@@ -23,39 +28,93 @@ h5{
   text-align: center;
 }
 
+
 body {
-  background: green;
+  //background: green;
   margin: 0;
   padding: 0;
-  padding-top: 100px;
-  //margin-bottom: 60px;
+  padding-top: 120px;
+}
+
+#main-content {
+  //background: white;
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  //border-radius: 2px;
+  //box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+#main-content .content {
+  padding: 40px;
 }
 
 
+table {
+  //border-style: solid;
+  margin: auto;
+  border-spacing:  10px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 100;
+}
+
+table tr td {
+  //border-style: solid;
+}
+
+div #projects{
+  width: 70px;
+  height: 70px;
+  background: #3498DB;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+div #projects img{
+  margin-top: 23px;
+  //border-style: solid;
+}
+
+div #blog{
+  width: 70px;
+  height: 70px;
+  background: #E74C3C;
+  text-align: center;
+  //margin-left: 50px;
+
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+div #blog img{
+  margin-top: 23px;
+  //border-style: solid;
+}
+
+div #aboutMe{
+  width: 70px;
+  height: 70px;
+  background: #F1C40F;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+div #aboutMe img{
+  margin-top: 23px;
+  //border-style: solid;
+}
 
 footer{
-  //position: absolute;
-  //margin-top: 150px;
-  //height: 100px;
-  //width: 100%;
-  //bottom: 0;
-  //left: 0;
-  background: grey;
+  //background: grey;
   text-align: center;
-  padding: 10px;
-  margin-top: 20px;
-
+  padding: 20px;
+  margin-top: 40px;
 }
 
-footer h5{
-  //background: green;
-  //padding-top: 0px;
-  //margin-top: 60px;
-  font-family: 'Roboto Mono', monospace;
-  opacity: .54;
-  font-weight: 100;
-  //text-align: center;
-}
+
+
 
 /* Mobile horizontally or Tablets vertical */
 @media (min-width: 768px) {
