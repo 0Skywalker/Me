@@ -39,6 +39,7 @@ body {
   //background: white;
   //width: 90%;
   //max-width: 800px;
+  padding-top: 20px;
   margin: 20px auto;
   border-radius: 2px;
   box-shadow: 0 0 10px rgba(0,0,0,.1);
@@ -47,7 +48,6 @@ body {
 #main-content .content {
   //padding: 40px;
 }
-
 
 table {
   border-style: solid;
@@ -109,7 +109,7 @@ footer{
   background: grey;
   text-align: center;
   padding: 20px;
-  margin-top: 135px;
+  margin-top: 40px;
 }
 
 
