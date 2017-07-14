@@ -1,5 +1,8 @@
 /* Normal Styles - For mobiles vertical */
-
+html{
+  position: relative;
+  min-height: 100%;
+}
 
 header {
   margin-top: 20px;
@@ -91,12 +94,12 @@ div #aboutMe img{
 }
 
 footer{
-  position: fixed;
+  position: absolute;
+  //margin-top: 150px;
   //background: black;
   height: 50px;
   width: 100%;
   bottom: 0;
-  left: 0;
 }
 
 footer h5{
