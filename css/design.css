@@ -9,7 +9,7 @@ header {
 }
 
 body {
-  background: green;
+  //background: green;
   //margin-bottom: 60px;
 
 }
@@ -45,7 +45,7 @@ table{
   border-spacing:  10px 30px;
   font-family: 'Roboto Mono', monospace;
   font-weight: 100;
-  border-style: solid;
+  //border-style: solid;
 }
 
 table tr td{
@@ -99,7 +99,7 @@ div #aboutMe img{
 footer{
   position: absolute;
   //margin-top: 150px;
-  background: grey;
+  //background: grey;
   height: 100px;
   width: 100%;
   bottom: 0;
@@ -107,7 +107,7 @@ footer{
 }
 
 footer h5{
-  background: green;
+  //background: green;
   //padding-top: 0px;
   margin-top: 60px;
   font-family: 'Roboto Mono', monospace;
