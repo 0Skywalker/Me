@@ -1,12 +1,11 @@
 /* Normal Styles - For mobiles vertical */
 header {
   line-height: 7px;
-  //background: red;
+  background: red;
   height: 100px;
   width: 100%;
-  left: 0;
-  top: 0;
-  position: fixed;
+  //margin-top: -20px;
+  //position: fixed;
 }
 
 h2{
@@ -33,16 +32,16 @@ body {
   //background: green;
   margin: 0;
   padding: 0;
-  padding-top: 120px;
+  //padding-top: 120px;
 }
 
 #main-content {
   //background: white;
-  width: 90%;
-  max-width: 800px;
+  //width: 90%;
+  //max-width: 800px;
   margin: 20px auto;
-  //border-radius: 2px;
-  //box-shadow: 0 0 10px rgba(0,0,0,.1);
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
 
 #main-content .content {
