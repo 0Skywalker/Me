@@ -39,20 +39,20 @@ body {
   //background: white;
   //width: 90%;
   //max-width: 800px;
-  //margin: 20px auto; hjh
+  //margin: 20px auto;
   border-radius: 2px;
   box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
 
 #main-content .content {
-  padding: 40px;
+  //padding: 40px;
 }
 
 
 table {
   border-style: solid;
   margin: auto;
-  border-spacing:  10px;
+  border-spacing: 10px;
   font-family: 'Roboto Mono', monospace;
   font-weight: 100;
 }
