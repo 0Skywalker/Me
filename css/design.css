@@ -101,7 +101,7 @@ footer{
   position: absolute;
   //margin-top: 150px;
   background: grey;
-  height: 60px;
+  height: 100px;
   width: 100%;
   bottom: 0;
   left: 0;
@@ -110,7 +110,7 @@ footer{
 footer h5{
   background: green;
   //padding-top: 0px;
-  margin-top: 30px;
+  margin-top: 60px;
   font-family: 'Roboto Mono', monospace;
   opacity: .54;
   font-weight: 100;
