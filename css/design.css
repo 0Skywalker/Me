@@ -39,6 +39,7 @@ table tr td h4{
 table{
   //background: blue;
   margin: auto;
+  margin-top: 50px;
   border-spacing:  10px 30px;
   font-family: 'Roboto Mono', monospace;
   font-weight: 100;
@@ -96,20 +97,24 @@ div #aboutMe img{
 footer{
   position: absolute;
   //margin-top: 150px;
-  //background: black;
-  height: 50px;
+  //background: grey;
+  height: 100px;
   width: 100%;
   bottom: 0;
+  left: 0;
 }
 
 footer h5{
-  //background: gray;
+  //background: green;
   //padding-top: 25px;
-  //margin-top: 50px;
+  margin-top: 60px;
+
   font-family: 'Roboto Mono', monospace;
   opacity: .54;
   font-weight: 100;
   text-align: center;
+
+  vertical-align: text-bottom;
 }
 
 /* Mobile horizontally or Tablets vertical */
