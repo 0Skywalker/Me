@@ -50,7 +50,7 @@ body {
 
 
 table {
-  //border-style: solid;
+  border-style: solid;
   margin: auto;
   border-spacing:  10px;
   font-family: 'Roboto Mono', monospace;
