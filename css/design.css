@@ -37,6 +37,12 @@ table{
   border-spacing:  10px 30px;
   font-family: 'Roboto Mono', monospace;
   font-weight: 100;
+  border-style: solid;
+}
+
+
+table tr td{
+  border-style: solid;
 }
 
 div #projects{
@@ -49,7 +55,7 @@ div #projects{
 }
 
 div #projects img{
-  margin-top: 20px;
+  margin-top: 23px;
   //border-style: solid;
 }
 
@@ -58,12 +64,14 @@ div #blog{
   height: 70px;
   background: #E74C3C;
   text-align: center;
+  //margin-left: 50px;
+  
   border-radius: 50%;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 div #blog img{
-  margin-top: 20px;
+  margin-top: 23px;
   //border-style: solid;
 }
 
@@ -77,15 +85,13 @@ div #aboutMe{
 }
 
 div #aboutMe img{
-  margin-top: 20px;
+  margin-top: 23px;
   //border-style: solid;
 }
 
-
-
 footer{
   background: gray;
-  padding-top: 50px;
+  padding-top: 25px;
 }
 
 /* Mobile horizontally or Tablets vertical */
