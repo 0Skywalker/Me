@@ -84,7 +84,8 @@ div #aboutMe img{
 
 
 footer{
-  text-align: center;
+  background: gray;
+  padding-top: 50px;
 }
 
 /* Mobile horizontally or Tablets vertical */
