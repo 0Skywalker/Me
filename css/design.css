@@ -39,7 +39,7 @@ body {
   background: white;
   padding-top: 20px;
   padding-bottom: 20px;
-  //margin: 20px auto; 
+  //margin: 20px auto;
   border-radius: 2px;
   box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
@@ -48,7 +48,7 @@ table {
   //border-style: solid;
   background: lime;
   margin: auto;
-  border-spacing: 15px;
+  border-spacing: 10px;
   font-family: 'Roboto Mono', monospace;
   font-weight: 100;
 }
