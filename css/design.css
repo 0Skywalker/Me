@@ -40,7 +40,6 @@ table{
   //border-style: solid;
 }
 
-
 table tr td{
   //border-style: solid;
 }
@@ -89,9 +88,13 @@ div #aboutMe img{
   //border-style: solid;
 }
 
-footer{
-  background: gray;
-  padding-top: 25px;
+footer h5{
+  //background: gray;
+  //padding-top: 25px;
+  font-family: 'Roboto Mono', monospace;
+  opacity: .54;
+  font-weight: 100;
+  text-align: center;
 }
 
 /* Mobile horizontally or Tablets vertical */
