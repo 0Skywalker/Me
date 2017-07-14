@@ -1,10 +1,10 @@
 /* Normal Styles - For mobiles vertical */
 header {
   line-height: 7px;
-  background: red;
+  //background: red;
   height: 100px;
   width: 100%;
-  //margin-top: -20px;
+  margin-top: 25px;
   //position: fixed;
 }
 
@@ -40,9 +40,10 @@ body {
   //width: 90%;
   //max-width: 800px;
   padding-top: 20px;
+  padding-bottom: 20px;
   margin: 20px auto;
-  border-radius: 2px;
-  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  //border-radius: 2px;
+  //box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
 
 #main-content .content {
@@ -50,7 +51,7 @@ body {
 }
 
 table {
-  border-style: solid;
+  //border-style: solid;
   margin: auto;
   border-spacing: 10px;
   font-family: 'Roboto Mono', monospace;
@@ -106,7 +107,7 @@ div #aboutMe img{
 }
 
 footer{
-  background: grey;
+  //background: grey;
   text-align: center;
   padding: 20px;
   margin-top: 40px;
