@@ -107,6 +107,11 @@ div #aboutMe img{
   //border-style: solid;
 }
 
+
+#gratefulness {
+  text-align: center; 
+}
+
 footer{
   //background: red;
   text-align: center;
