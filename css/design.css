@@ -99,7 +99,7 @@ div #aboutMe img{
 footer{
   position: absolute;
   //margin-top: 150px;
-  //background: grey;
+  background: grey;
   height: 100px;
   width: 100%;
   bottom: 0;
@@ -107,9 +107,9 @@ footer{
 }
 
 footer h5{
-  //background: green;
+  background: green;
   //padding-top: 0px;
-  margin-top: 60px;
+  //margin-top: 60px;
   font-family: 'Roboto Mono', monospace;
   opacity: .54;
   font-weight: 100;
