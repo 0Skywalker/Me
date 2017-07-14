@@ -19,12 +19,11 @@ div h2{
   text-align: center;
 }
 
-header div p{
+div h5{
   font-family: 'Roboto Mono', monospace;
   opacity: .54;
   font-weight: 100;
   text-align: center;
-  font-size: 14px;
 }
 
 table tr td h4{
@@ -83,9 +82,8 @@ div #aboutMe img{
 }
 
 footer div p{
-  font-family: 'Roboto Light', sans-serif;
+  //font-family: 'Roboto Light', sans-serif;
   font-size: 12px;
-  opacity: .54;
 }
 
 footer{
