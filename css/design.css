@@ -1,4 +1,6 @@
 /* Normal Styles - For mobiles vertical */
+
+
 header {
   margin-top: 20px;
 }
@@ -88,9 +90,19 @@ div #aboutMe img{
   //border-style: solid;
 }
 
+footer{
+  position: fixed;
+  //background: black;
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
 footer h5{
   //background: gray;
   //padding-top: 25px;
+  //margin-top: 50px;
   font-family: 'Roboto Mono', monospace;
   opacity: .54;
   font-weight: 100;
