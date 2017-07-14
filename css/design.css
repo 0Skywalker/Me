@@ -1,11 +1,10 @@
 /* Normal Styles - For mobiles vertical */
 header {
   line-height: 7px;
-  background: red;
+  //background: red;
   height: 100px;
   width: 100%;
   margin-top: 25px;
-  //position: fixed;
 }
 
 h2{
@@ -27,26 +26,32 @@ h5{
   text-align: center;
 }
 
+h6{
+  font-family: 'Roboto Mono', monospace;
+  opacity: .54;
+  font-weight: 100;
+  text-align: center;
+  //background: lime;
+}
 
 body {
   //background: green;
   margin: 0;
   padding: 0;
-  //padding-top: 120px;
 }
 
 #main-content {
-  background: white;
+  //background: white;
   padding-top: 20px;
   padding-bottom: 20px;
   //margin: 20px auto;
-  border-radius: 2px;
-  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  //border-radius: 2px;
+  //box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
 
 table {
   //border-style: solid;
-  background: lime;
+  //background: lime;
   margin: auto;
   border-spacing: 10px;
   font-family: 'Roboto Mono', monospace;
@@ -55,7 +60,7 @@ table {
 
 table tr td {
   //border-style: solid;
-  background: gray;
+  //background: gray;
 }
 
 div #projects{
@@ -103,10 +108,10 @@ div #aboutMe img{
 }
 
 footer{
-  background: red;
+  //background: red;
   text-align: center;
-  padding: 20px;
-  margin-top: 40px;
+  //padding: 20px;
+  margin-top: 50px;
 }
 
 
