@@ -64,6 +64,7 @@ a:visited {
   font-family: 'Roboto Mono', monospace;
   //background: red;
   text-align: center;
+  background: purple;
 }
 
 #main-content {
@@ -146,20 +147,20 @@ footer{
 
 /* Mobile horizontally or Tablets vertical */
 @media (min-width: 768px) {
-  body{
+  body {
     background: red;
   }
-}
 
-/* Tablets horizontally and Normal desks */
-@media (min-width: 1024px) {
-  body {
-    background: green;
-  }
-
-  h4{
+  h4 {
     font-weight: 100;
     opacity: .54;
+    background: red;
+  }
+
+  table tr td h5 {
+
+    text-align: left;
+    background: yellow;
   }
 
   #myTopics_1 {
@@ -167,18 +168,20 @@ footer{
   }
 
   #myTopics_2 {
-    //border-style: solid;
-    //background: lime;
+    background: lime;
     margin: auto;
     border-spacing: 15px;
     font-family: 'Roboto Mono', monospace;
     font-weight: 100;
+    width: 600px;
     display: table;
   }
 
   table tr td {
-    //border-style: solid;
-    //background: gray;
+    background: gray;
+    vertical-align: middle;
+    //line-height: 5px;
+
   }
 
   div #projects{
@@ -200,7 +203,7 @@ footer{
     height: 100px;
     background: #E74C3C;
     text-align: center;
-    //margin-left: 50px;
+    //margin-left: 152px;
 
     border-radius: 50%;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -223,6 +226,26 @@ footer{
   div #aboutMe img{
     margin-top: 30px;
     //border-style: solid;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablets horizontally and Normal desks */
+@media (min-width: 1024px) {
+  body {
+    background: green;
   }
 
 }
