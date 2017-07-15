@@ -24,6 +24,7 @@ h5{
   opacity: .54;
   font-weight: 100;
   text-align: center;
+  //background: gray;
 }
 
 h6{
@@ -39,6 +40,20 @@ body {
   margin: 0;
   padding: 0;
   -webkit-text-size-adjust:none;
+}
+
+hr {
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+#extract h4{
+  font-family: 'Roboto Mono', monospace;
+  //background: red;
+  text-align: center;
 }
 
 #main-content {
