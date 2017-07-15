@@ -148,19 +148,24 @@ footer{
 /* Mobile horizontally or Tablets vertical */
 @media (min-width: 768px) {
   body {
-    background: red;
+    //background: red;
   }
 
   h4 {
     font-weight: 100;
     opacity: .54;
-    background: red;
+    //background: red;
+  }
+
+  table tr td h4 {
+    opacity: .74;
+    //background: lime;
   }
 
   table tr td h5 {
-
     text-align: left;
-    background: yellow;
+    //background: yellow;
+    margin-top: -15px;
   }
 
   #myTopics_1 {
@@ -168,7 +173,7 @@ footer{
   }
 
   #myTopics_2 {
-    background: lime;
+    //background: lime;
     margin: auto;
     border-spacing: 15px;
     font-family: 'Roboto Mono', monospace;
@@ -178,10 +183,9 @@ footer{
   }
 
   table tr td {
-    background: gray;
+    //background: gray;
     vertical-align: middle;
     //line-height: 5px;
-
   }
 
   div #projects{
@@ -195,7 +199,6 @@ footer{
 
   div #projects img{
     margin-top: 30px;
-    //border-style: solid;
   }
 
   div #blog{
@@ -204,14 +207,12 @@ footer{
     background: #E74C3C;
     text-align: center;
     //margin-left: 152px;
-
     border-radius: 50%;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   }
 
   div #blog img{
     margin-top: 30px;
-    //border-style: solid;
   }
 
   div #aboutMe{
@@ -225,27 +226,29 @@ footer{
 
   div #aboutMe img{
     margin-top: 30px;
-    //border-style: solid;
   }
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* Tablets horizontally and Normal desks */
 @media (min-width: 1024px) {
   body {
-    background: green;
+    //background: green;
+  }
+
+  #myTopics_2 {
+    //background: lime;
+    //margin: auto;
+    //border-spacing: 15px;
+    //font-family: 'Roboto Mono', monospace;
+    //font-weight: 100;
+    width: 800px;
+  }
+
+  table tr td {
+    //background: gray;
+    //vertical-align: middle;
+    //line-height: 5px;
   }
 
 }
@@ -253,6 +256,24 @@ footer{
 /* large desks */
 @media (min-width: 1200px) {
   body {
-    background: blue;
+    //background: blue;
   }
+
+  #myTopics_2 {
+    //background: lime;
+    //margin: auto;
+    //border-spacing: 50px;
+    //font-family: 'Roboto Mono', monospace;
+    //font-weight: 100;
+    width: 1000px;
+  }
+
+  table tr td {
+    //background: gray;
+    //vertical-align: middle;
+    //line-height: 5px;
+    height: 150px;
+  }
+
+
 }
