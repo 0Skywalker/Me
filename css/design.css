@@ -1,7 +1,7 @@
 /* Normal Styles - For mobiles vertical */
 header {
   line-height: 7px;
-  background: red;
+  //background: red;
   height: 100px;
   width: 100%;
   margin-top: 25px;
@@ -26,10 +26,6 @@ h5{
   text-align: center;
 }
 
-#extract{
-  background: lime;
-}
-
 h6{
   font-family: 'Roboto Mono', monospace;
   opacity: .54;
@@ -39,7 +35,7 @@ h6{
 }
 
 body {
-  background: green;
+  //background: green;
   margin: 0;
   padding: 0;
   -webkit-text-size-adjust:none;
@@ -113,7 +109,7 @@ div #aboutMe img{
 }
 
 footer{
-  background: red;
+  //background: red;
   text-align: center;
   //padding: 20px;
   margin-top: 50px;
