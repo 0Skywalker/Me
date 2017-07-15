@@ -26,9 +26,15 @@ h5{
   text-align: center;
 }
 
-
-
-
+#extract p{
+  //background: lime;
+  font-size: .83em;
+  font-family: 'Roboto Mono', monospace;
+  opacity: .54;
+  font-weight: 100;
+  text-align: center;
+  line-height: 5px;
+}
 
 h6{
   font-family: 'Roboto Mono', monospace;
