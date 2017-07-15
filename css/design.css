@@ -52,13 +52,13 @@ hr {
 
 /* unvisited link */
 a:link {
-    color: #2ecc71;
+    color: #8e44ad;
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: #2ecc71;
+    color: #8e44ad;
     text-decoration: none;
 }
 
