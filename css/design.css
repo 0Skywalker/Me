@@ -50,6 +50,10 @@ hr {
   border-top: 1px solid #ddd;
 }
 
+a {
+  text-decoration: none;
+}
+
 #extract h4{
   font-family: 'Roboto Mono', monospace;
   //background: red;
