@@ -26,6 +26,15 @@ h5{
   text-align: center;
 }
 
+div h5{
+  font-family: 'Roboto Mono', monospace;
+  opacity: .54;
+  font-weight: 100;
+  text-align: center;
+  font-size: 13px;
+  //background: red;
+}
+
 h6{
   font-family: 'Roboto Mono', monospace;
   opacity: .54;
