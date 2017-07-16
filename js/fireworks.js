@@ -174,7 +174,7 @@ function render() {
     var imgData = ctx.createImageData(width, height);
 
     //CANTIDAD
-    for (var e = 0; e < 10; e++) {
+    for (var e = 0; e < 3; e++) {
         emitters[e].update();
         emitters[e].render(imgData);
     }
