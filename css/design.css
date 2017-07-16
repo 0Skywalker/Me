@@ -7,6 +7,17 @@ header {
   margin-top: 25px;
 }
 
+canvas {
+  //background: gray;
+  position: absolute;
+
+  margin-left: 37.5%;
+  display: block;
+  width:25%;
+  height:45%;
+  z-index:-1;
+}
+
 h2{
   font-family: 'Roboto Mono', monospace;
   opacity: 1;
