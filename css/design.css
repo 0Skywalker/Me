@@ -7,16 +7,6 @@ header {
   margin-top: 25px;
 }
 
-canvas {
-  //background: gray;
-  position: absolute;
-  //margin-left:31px;
-  display: block;
-  width:100%;
-  height:350px;
-  z-index:-1;
-}
-
 #ic_e-mail:active {
 
 }
