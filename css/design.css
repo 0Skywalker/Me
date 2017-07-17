@@ -7,18 +7,6 @@ header {
   margin-top: 25px;
 }
 
-#btnControl {
-    display: none;
-}
-
-#btnControl:checked + label > img {
-    -webkit-transition: all .3s ease-in-out;
-    -webkit-transform: scale(0);
-}
-
-
-
-
 h2{
   font-family: 'Roboto Mono', monospace;
   opacity: 1;
