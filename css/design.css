@@ -141,17 +141,18 @@ div #aboutMe img{
 #div_email {
   //background: red;
   text-align: center;
-  margin: 10px auto;
-  height: 35px;
+  margin: -10px auto;
+  height: 25px;
   padding-top: 1px;
 
 }
 
 #p_email {
   display: none;
-  //opacity: .74;
+  font-family: 'Roboto Mono', monospace;
+  //opacity: .54;
   font-weight: 100;
-  clear: both;
+  text-align: center;
 }
 
 
