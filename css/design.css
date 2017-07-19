@@ -138,6 +138,21 @@ div #aboutMe img{
   //border-style: solid;
 }
 
+#div_email {
+  //background: red;
+  text-align: center;
+  margin: 10px auto;
+  height: 35px;
+  padding-top: 1px;
+
+}
+
+#p_email {
+  display: none;
+  clear: both;
+}
+
+
 footer{
   //background: red;
   text-align: center;
