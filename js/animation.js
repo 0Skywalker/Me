@@ -33,7 +33,7 @@ $(function() {
      ripple_wrap.removeClass('goripple');
    });
 
-   $('body').on('click', 'td a', function(e) {
+   $('body').on('click', '#projects', function(e) {
      rippler.css('left', e.clientX + 'px');
      rippler.css('top', e.clientY + 'px');
      e.preventDefault();
