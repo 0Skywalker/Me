@@ -149,6 +149,8 @@ div #aboutMe img{
 
 #p_email {
   display: none;
+  //opacity: .74;
+  font-weight: 100;
   clear: both;
 }
 
