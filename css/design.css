@@ -9,7 +9,7 @@
 }
 @-webkit-keyframes RIPPLER {
   0%   { border-width: 0; }
-  40% {
+  20% {
     height: 0;
     width: 0;
     border-width: 1500px;
@@ -17,14 +17,13 @@
     margin-left:-1500px;
     border-color: #3498DB;
   }
-
-  41% {
+  21% {
     height: 0;
     width: 0;
     border-width: 1500px;
     margin-top: -1500px;
     margin-left:-1500px;
-    border-color: #009688;
+    border-color: #3498DB;
   }
   100% {
     border-width: 1500px;
@@ -32,7 +31,7 @@
     width: 2000px;
     margin-top: -2500px;
     margin-left:-2500px;
-    border-color: #009688;
+    border-color: #3498DB;
   }
 }
 @keyframes RIPPLER {
@@ -40,25 +39,25 @@
   40% {
     height: 0;
     width: 0;
-    border-width: 1500px;
-    margin-top: -1500px;
-    margin-left:-1500px;
+    border-width: 800px;
+    margin-top: -800px;
+    margin-left: -800px;
     border-color: #3498DB;
   }
   41% {
     height: 0;
     width: 0;
-    border-width: 1500px;
-    margin-top: -1500px;
-    margin-left:-1500px;
+    border-width: 800px;
+    margin-top: -800px;
+    margin-left: -800px;
     border-color: #3498DB;
   }
   100% {
-    border-width: 1500px;
-    height: 2000px;
-    width: 2000px;
-    margin-top: -2500px;
-    margin-left:-2500px;
+    border-width: 800px;
+    height: 1500px;
+    width: 1500px;
+    margin-top: -1550px;
+    margin-left: -1550px;
     border-color: #3498DB;
   }
 }
@@ -88,29 +87,6 @@
  animation-fill-mode: forwards;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 header {
   line-height: 7px;
@@ -279,7 +255,7 @@ footer{
 /* Mobile horizontally or Tablets vertical */
 @media (min-width: 768px) {
   body {
-    //background: red;
+    background: red;
   }
 
   h4 {
@@ -364,7 +340,7 @@ footer{
 /* Tablets horizontally and Normal desks */
 @media (min-width: 1024px) {
   body {
-    //background: green;
+    background: green;
   }
 
   #myTopics_2 {
@@ -387,7 +363,7 @@ footer{
 /* large desks */
 @media (min-width: 1200px) {
   body {
-    //background: blue;
+    background: blue;
   }
 
   #myTopics_2 {
