@@ -1,10 +1,11 @@
+/* Fade in/ fade out - E-mail */
 $(function() {
  $("#ic_email").click(function() {
      $("#p_email").fadeToggle(300);
    });
  });
 
-
+/* Material Design Ripple transition - Projects */
  $(document).ready(function() {
    var ripple_wrap = $('.ripple-wrap'),
        rippler = $('.ripple'),
@@ -12,7 +13,7 @@ $(function() {
        monitor = function(el) {
          var computed = window.getComputedStyle(el, null),
              borderwidth = parseFloat(computed.getPropertyValue('border-left-width'));
-         if (!finish && borderwidth >= 1500) {
+         if (!finish && borderwidth >= 800) {
            el.style.WebkitAnimationPlayState = "paused";
            el.style.animationPlayState = "paused";
            swapContent();
@@ -26,25 +27,21 @@ $(function() {
          }
        };
 
-   storedcontent = $('#about-content').html();
-   $('#about-content').remove();
+   storedcontent = $('#projects-content').html();
+   $('#projects-content').remove();
 
    rippler.bind("webkitAnimationEnd oAnimationEnd msAnimationEnd mozAnimationEnd animationend", function(e){
      ripple_wrap.removeClass('goripple');
    });
 
-   $('body').on('click', 'td div', function(e) {
+   $('body').on('click', '#projects', function(e) {
      rippler.css('left', e.clientX + 'px');
      rippler.css('top', e.clientY + 'px');
      e.preventDefault();
      finish = false;
      ripple_wrap.addClass('goripple');
      window.requestAnimationFrame(function() {monitor(rippler[0])});
-
-
    });
-
-
 
    function swapContent() {
        var newcontent = $('#main-content').html();
@@ -57,3 +54,108 @@ $(function() {
    }
 
  });
+
+ /* Material Design Ripple transition - Blog */
+  $(document).ready(function() {
+    var ripple_wrap = $('.ripple-wrap'),
+        rippler = $('.ripple'),
+        finish = false,
+        monitor = function(el) {
+          var computed = window.getComputedStyle(el, null),
+              borderwidth = parseFloat(computed.getPropertyValue('border-left-width'));
+          if (!finish && borderwidth >= 800) {
+            el.style.WebkitAnimationPlayState = "paused";
+            el.style.animationPlayState = "paused";
+            swapContent();
+          }
+          if (finish) {
+            el.style.WebkitAnimationPlayState = "running";
+            el.style.animationPlayState = "running";
+            return;
+          } else {
+            window.requestAnimationFrame(function() {monitor(el)});
+          }
+        };
+
+    storedcontent = $('#blog-content').html();
+    $('#blog-content').remove();
+
+    rippler.bind("webkitAnimationEnd oAnimationEnd msAnimationEnd mozAnimationEnd animationend", function(e){
+      ripple_wrap.removeClass('goripple');
+    });
+
+    $('body').on('click', '#blog', function(e) {
+      rippler.css('left', e.clientX + 'px');
+      rippler.css('top', e.clientY + 'px');
+      e.preventDefault();
+      finish = false;
+      ripple_wrap.addClass('goripple');
+      window.requestAnimationFrame(function() {monitor(rippler[0])});
+    });
+
+    function swapContent() {
+        var newcontent = $('#main-content').html();
+        $('#main-content').html(storedcontent);
+        storedcontent = newcontent;
+        // do some Ajax, put it in the DOM and then set this to true
+        setTimeout(function() {
+          finish = true;
+        },10);
+    }
+
+  });
+
+
+
+
+
+
+  /* Material Design Ripple transition - About Me */
+   $(document).ready(function() {
+     var ripple_wrap = $('.ripple-wrap'),
+         rippler = $('.ripple'),
+         finish = false,
+         monitor = function(el) {
+           var computed = window.getComputedStyle(el, null),
+               borderwidth = parseFloat(computed.getPropertyValue('border-left-width'));
+           if (!finish && borderwidth >= 800) {
+             el.style.WebkitAnimationPlayState = "paused";
+             el.style.animationPlayState = "paused";
+             swapContent();
+           }
+           if (finish) {
+             el.style.WebkitAnimationPlayState = "running";
+             el.style.animationPlayState = "running";
+             return;
+           } else {
+             window.requestAnimationFrame(function() {monitor(el)});
+           }
+         };
+
+     storedcontent = $('#aboutMe-content').html();
+     $('#aboutMe-content').remove();
+
+     rippler.bind("webkitAnimationEnd oAnimationEnd msAnimationEnd mozAnimationEnd animationend", function(e){
+       ripple_wrap.removeClass('goripple');
+     });
+
+     $('body').on('click', '#aboutMe', function(e) {
+       rippler.css('left', e.clientX + 'px');
+       rippler.css('top', e.clientY + 'px');
+       e.preventDefault();
+       finish = false;
+       ripple_wrap.addClass('goripple');
+       window.requestAnimationFrame(function() {monitor(rippler[0])});
+     });
+
+     function swapContent() {
+         var newcontent = $('#main-content').html();
+         $('#main-content').html(storedcontent);
+         storedcontent = newcontent;
+         // do some Ajax, put it in the DOM and then set this to true
+         setTimeout(function() {
+           finish = true;
+         },10);
+     }
+
+   });
