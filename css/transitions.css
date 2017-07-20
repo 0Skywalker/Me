@@ -54,6 +54,14 @@
     margin-left: -800px;
     border-color: #3498DB;
   }
+  80% {
+    border-width: 800px;
+    height: 1500px;
+    width: 1500px;
+    margin-top: -1550px;
+    margin-left: -1550px;
+    border-color: #3498DB;
+  }
   100% {
     border-width: 800px;
     height: 1500px;
