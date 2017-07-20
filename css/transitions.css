@@ -69,7 +69,7 @@
   width: 0;
   border-width: 0px;
   border-style: solid;
-  border-color: #2980b9;
+  border-color: #3498db;
   border-radius: 100%;
   position: absolute;
   top: 300px;
@@ -82,10 +82,10 @@
 }
 .ripple-wrap_1.goripple_1 .ripple_1 {
  -webkit-animation-name: RIPPLER_1;
- -webkit-animation-duration: 2.5s;
+ -webkit-animation-duration: 2.3s;
  -webkit-animation-fill-mode: forwards;
  animation-name: RIPPLER_1;
- animation-duration: 2.5s;
+ animation-duration: 2.3s;
  animation-fill-mode: forwards;
 }
 
