@@ -165,6 +165,14 @@ div #aboutMe img{
   text-align: center;
 }
 
+ #aboutMe-article{
+  text-align: center;
+  background: red;
+  //padding: 10px;
+  margin: 40px;
+}
+
+
 footer{
   //background: red;
   text-align: center;
