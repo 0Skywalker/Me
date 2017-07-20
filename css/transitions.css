@@ -261,15 +261,9 @@
  animation-fill-mode: forwards;
 }
 
-body{
-  //background: pink;
-}
-
 /* Mobile horizontally or Tablets vertical */
-@media (min-width: 768px){
-  body{
-    //background: lime;
-  }
+@media (min-width: 768px) {
+
   /* Ripple for Projects */
   .ripple-wrap_1 {
     display: none;
@@ -523,12 +517,9 @@ body{
 }
 
 
+/* Tablets horizontally, Normal desks and Large desks */
+@media (min-width: 1200px) {
 
-/* Tablets horizontally, Normal desks and Large desks*/
-@media (min-width: 1200px){
-  body{
-    //background: aqua;
-  }
   /* Ripple for Projects */
   .ripple-wrap_1 {
     display: none;
@@ -783,10 +774,8 @@ body{
 
 
 /* Quad HD */
-@media (min-width: 2560px){
-  body{
-    background: tomato;
-  }
+@media (min-width: 2560px) {
+
   /* Ripple for Projects */
   .ripple-wrap_1 {
     display: none;
