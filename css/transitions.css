@@ -262,13 +262,13 @@
 }
 
 body{
-  background: pink;
+  //background: pink;
 }
 
 /* Mobile horizontally or Tablets vertical */
 @media (min-width: 768px){
   body{
-    background: lime;
+    //background: lime;
   }
   /* Ripple for Projects */
   .ripple-wrap_1 {
@@ -527,10 +527,258 @@ body{
 /* Tablets horizontally, Normal desks and Large desks*/
 @media (min-width: 1200px){
   body{
-    background: aqua;
+    //background: aqua;
+  }
+  /* Ripple for Projects */
+  .ripple-wrap_1 {
+    display: none;
+    overflow: hidden;
+    position: fixed;
+    font-size: 0;
+    z-index: 1000;
+    top: 0; left: 0; right: 0; bottom: 0;
+  }
+  @-webkit-keyframes RIPPLER_1 {
+    0%   { border-width: 0; }
+    40% {
+      height: 0;
+      width: 0;
+      border-width: 3000px;
+      margin-top: -3000px;
+      margin-left: -3000px;
+      border-color: #3498DB;
+    }
+    41% {
+      height: 0;
+      width: 0;
+      border-width: 3000px;
+      margin-top: -3000px;
+      margin-left: -3000px;
+      border-color: #3498DB;
+    }
+    100% {
+      border-width: 3000px;
+      height: 3700px;
+      width: 3700px;
+      margin-top: -4850px;
+      margin-left: -4850px;
+      border-color: #3498DB;
+    }
+  }
+  @keyframes RIPPLER_1 {
+    0%   { border-width: 0; }
+    40% {
+      height: 0;
+      width: 0;
+      border-width: 3000px;
+      margin-top: -3000px;
+      margin-left: -3000px;
+      border-color: #3498DB;
+    }
+    41% {
+      height: 0;
+      width: 0;
+      border-width: 3000px;
+      margin-top: -3000px;
+      margin-left: -3000px;
+      border-color: #3498DB;
+    }
+    100% {
+      border-width: 3000px;
+      height: 3700px;
+      width: 3700px;
+      margin-top: -4850px;
+      margin-left: -4850px;
+      border-color: #3498DB;
+    }
+  }
+  .ripple_1 {
+    display: block;
+    height: 0;
+    width: 0;
+    border-width: 0px;
+    border-style: solid;
+    border-color: #3498DB;
+    border-radius: 100%;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    -webkit-animation: none;
+    animation: none;
+  }
+  .ripple-wrap_1.goripple_1 {
+    display: block;
+  }
+  .ripple-wrap_1.goripple_1 .ripple_1 {
+   -webkit-animation-name: RIPPLER_1;
+   -webkit-animation-duration: 2.2s;
+   -webkit-animation-fill-mode: forwards;
+   animation-name: RIPPLER_1;
+   animation-duration: 2.2s;
+   animation-fill-mode: forwards;
   }
 
+  /* Ripple for Blog */
+  .ripple-wrap_2 {
+    display: none;
+    overflow: hidden;
+    position: fixed;
+    font-size: 0;
+    z-index: 1000;
+    top: 0; left: 0; right: 0; bottom: 0;
+  }
+  @-webkit-keyframes RIPPLER_2 {
+    0%   { border-width: 0; }
+    40% {
+      border-width: 3000px;
+      margin-top: -3000px;
+      margin-left: -3000px;
+      border-color: #E74C3C;
+    }
+    41% {
+      border-width: 3000px;
+      margin-top: -3000px;
+      margin-left: -3000px;
+      border-color: #E74C3C;
+    }
+    100% {
+      border-width: 3000px;  /* No ocupa crecer porque no solo se necesita que el borde cubra la pantalla para que ocurra la por mietras la redirección */
+      border-color: #E74C3C;
+    }
+  }
+  @keyframes RIPPLER_2 {
+    0%   { border-width: 0; }
+    40% {
+      border-width: 3000px;
+      margin-top: -3000px;
+      margin-left: -3000px;
+      border-color: #E74C3C;
+    }
+    41% {
+      border-width: 3000px;
+      margin-top: -3000px;
+      margin-left: -3000px;
+      border-color: #E74C3C;
+    }
+    100% {
+      border-width: 3000px;  /* No ocupa crecer porque no solo se necesita que el borde cubra la pantalla para que ocurra la por mietras la redirección */
+      border-color: #E74C3C;
+    }
+  }
+  .ripple_2 {
+    display: block;
+    height: 0;
+    width: 0;
+    border-width: 0px;
+    border-style: solid;
+    border-color: #E74C3C;
+    border-radius: 100%;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    -webkit-animation: none;
+    animation: none;
+  }
+  .ripple-wrap_2.goripple_2 {
+    display: block;
+  }
+  .ripple-wrap_2.goripple_2 .ripple_2 {
+   -webkit-animation-name: RIPPLER_2;
+   -webkit-animation-duration: 2.3s;
+   -webkit-animation-fill-mode: forwards;
+   animation-name: RIPPLER_2;
+   animation-duration: 2.3s;
+   animation-fill-mode: forwards;
+  }
 
+  /* Ripple for About Me */
+  .ripple-wrap_3 {
+    display: none;
+    overflow: hidden;
+    position: fixed;
+    font-size: 0;
+    z-index: 1000;
+    top: 0; left: 0; right: 0; bottom: 0;
+  }
+  @-webkit-keyframes RIPPLER_3 {
+    0%   { border-width: 0; }
+    40% {
+      height: 0;
+      width: 0;
+      border-width: 3000px;
+      margin-top: -3000px;
+      margin-left: -3000px;
+      border-color: #F1C40F;
+    }
+    41% {
+      height: 0;
+      width: 0;
+      border-width: 3000px;
+      margin-top: -3000px;
+      margin-left: -3000px;
+      border-color: #F1C40F;
+    }
+    100% {
+      border-width: 3000px;
+      height: 3700px;
+      width: 3700px;
+      margin-top: -4850px;
+      margin-left: -4850px;
+      border-color: #F1C40F;
+    }
+  }
+  @keyframes RIPPLER_3 {
+    0%   { border-width: 0; }
+    40% {
+      height: 0;
+      width: 0;
+      border-width: 3000px;
+      margin-top: -3000px;
+      margin-left: -3000px;
+      border-color: #F1C40F;
+    }
+    41% {
+      height: 0;
+      width: 0;
+      border-width: 3000px;
+      margin-top: -3000px;
+      margin-left: -3000px;
+      border-color: #F1C40F;
+    }
+    100% {
+      border-width: 3000px;
+      height: 3700px;
+      width: 3700px;
+      margin-top: -4850px;
+      margin-left: -4850px;
+      border-color: #F1C40F;
+    }
+  }
+  .ripple_3 {
+    display: block;
+    height: 0;
+    width: 0;
+    border-width: 0px;
+    border-style: solid;
+    border-color: #F1C40F;
+    border-radius: 100%;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    -webkit-animation: none;
+    animation: none;
+  }
+  .ripple-wrap_3.goripple_3 {
+    display: block;
+  }
+  .ripple-wrap_3.goripple_3 .ripple_3 {
+   -webkit-animation-name: RIPPLER_3;
+   -webkit-animation-duration: 2.2s;
+   -webkit-animation-fill-mode: forwards;
+   animation-name: RIPPLER_3;
+   animation-duration: 2.2s;
+   animation-fill-mode: forwards;
+  }
 }
 
 
