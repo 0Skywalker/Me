@@ -38,7 +38,7 @@
 }
 @keyframes RIPPLER_1 {
   0%   { border-width: 0; }
-  40% {
+  60% {
     height: 0;
     width: 0;
     border-width: 800px;
@@ -46,20 +46,12 @@
     margin-left: -800px;
     border-color: #3498DB;
   }
-  41% {
+  61% {
     height: 0;
     width: 0;
     border-width: 800px;
     margin-top: -800px;
     margin-left: -800px;
-    border-color: #3498DB;
-  }
-  80% {
-    border-width: 800px;
-    height: 1500px;
-    width: 1500px;
-    margin-top: -1550px;
-    margin-left: -1550px;
     border-color: #3498DB;
   }
   100% {
