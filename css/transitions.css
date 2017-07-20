@@ -1,6 +1,6 @@
 /* Normal Styles - For mobiles vertical */
 
-/* Ripple for Porjects */
+/* Ripple for Projects */
 .ripple-wrap_1 {
   display: none;
   overflow: hidden;
@@ -38,7 +38,7 @@
 }
 @keyframes RIPPLER_1 {
   0%   { border-width: 0; }
-  60% {
+  40% {
     height: 0;
     width: 0;
     border-width: 800px;
@@ -46,7 +46,7 @@
     margin-left: -800px;
     border-color: #3498DB;
   }
-  61% {
+  41% {
     height: 0;
     width: 0;
     border-width: 800px;
@@ -88,6 +88,8 @@
  animation-duration: 2s;
  animation-fill-mode: forwards;
 }
+
+
 
 /* Ripple for Blog */
 .ripple-wrap_2 {
