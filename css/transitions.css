@@ -82,10 +82,10 @@
 }
 .ripple-wrap_1.goripple_1 .ripple_1 {
  -webkit-animation-name: RIPPLER_1;
- -webkit-animation-duration: 2.3s;
+ -webkit-animation-duration: 2s;
  -webkit-animation-fill-mode: forwards;
  animation-name: RIPPLER_1;
- animation-duration: 2.3s;
+ animation-duration: 2s;
  animation-fill-mode: forwards;
 }
 
