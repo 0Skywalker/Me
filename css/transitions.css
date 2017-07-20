@@ -816,10 +816,10 @@ body{
     }
     100% {
       border-width: 4000px;
-      height: 4000px;
-      width: 4000px;
-      margin-top: -6000px;
-      margin-left: -6000px;
+      height: 9000px;
+      width: 9000px;
+      margin-top: -8500px;
+      margin-left: -8500px;
       border-color: #3498DB;
     }
   }
@@ -843,10 +843,10 @@ body{
     }
     100% {
       border-width: 4000px;
-      height: 6000px;
-      width: 6000px;
-      margin-top: -7000px;
-      margin-left: -7000px;
+      height: 9000px;
+      width: 9000px;
+      margin-top: -8500px;
+      margin-left: -8500px;
       border-color: #3498DB;
     }
   }
@@ -901,8 +901,6 @@ body{
     }
     100% {
       border-width: 4000px;
-      margin-top: -6000px;
-      margin-left: -6000px;
       border-color: #E74C3C;
     }
   }
@@ -922,8 +920,6 @@ body{
     }
     100% {
       border-width: 4000px;
-      margin-top: -6000px;
-      margin-left: -6000px;
       border-color: #E74C3C;
     }
   }
@@ -982,10 +978,10 @@ body{
     }
     100% {
       border-width: 4000px;
-      height: 4000px;
-      width: 4000px;
-      margin-top: -6000px;
-      margin-left: -6000px;
+      height: 9000px;
+      width: 9000px;
+      margin-top: -8500px;
+      margin-left: -8500px;
       border-color: #F1C40F;
     }
   }
@@ -1009,10 +1005,10 @@ body{
     }
     100% {
       border-width: 4000px;
-      height: 4000px;
-      width: 4000px;
-      margin-top: -6000px;
-      margin-left: -6000px;
+      height: 9000px;
+      width: 9000px;
+      margin-top: -8500px;
+      margin-left: -8500px;
       border-color: #F1C40F;
     }
   }
@@ -1038,7 +1034,7 @@ body{
    -webkit-animation-duration: 2s;
    -webkit-animation-fill-mode: forwards;
    animation-name: RIPPLER_3;
-   animation-duration: 1.7s;
+   animation-duration: 2s;
    animation-fill-mode: forwards;
   }
 }
