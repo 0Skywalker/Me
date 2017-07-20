@@ -7,101 +7,151 @@ $(function() {
 
 /* Material Design Ripple transition - Projects */
  $(function() {
-   var ripple_wrap = $('.ripple-wrap'),
-       rippler = $('.ripple'),
-       finish = false,
-       monitor = function(el) {
-         var computed = window.getComputedStyle(el, null),
-             borderwidth = parseFloat(computed.getPropertyValue('border-left-width'));
-         if (!finish && borderwidth >= 800) {
-           el.style.WebkitAnimationPlayState = "paused";
-           el.style.animationPlayState = "paused";
-           swapContent();
+   var ripple_wrap_1 = $('.ripple-wrap_1'),
+       rippler_1 = $('.ripple_1'),
+       finish_1 = false,
+       monitor_1 = function(el_1) {
+         var computed_1 = window.getComputedStyle(el_1, null),
+             borderwidth_1 = parseFloat(computed_1.getPropertyValue('border-left-width'));
+         if (!finish_1 && borderwidth_1 >= 800) {
+           el_1.style.WebkitAnimationPlayState = "paused";
+           el_1.style.animationPlayState = "paused";
+           swapContent_1();
          }
-         if (finish) {
-           el.style.WebkitAnimationPlayState = "running";
-           el.style.animationPlayState = "running";
+         if (finish_1) {
+           el_1.style.WebkitAnimationPlayState = "running";
+           el_1.style.animationPlayState = "running";
            return;
          } else {
-           window.requestAnimationFrame(function() {monitor(el)});
+           window.requestAnimationFrame(function() {monitor_1(el_1)});
          }
        };
 
-   storedcontent = $('#projects-content').html();
+   storedcontent_1 = $('#projects-content').html();
    $('#projects-content').remove();
 
-   rippler.bind("webkitAnimationEnd oAnimationEnd msAnimationEnd mozAnimationEnd animationend", function(e){
-     ripple_wrap.removeClass('goripple');
+   rippler_1.bind("webkitAnimationEnd oAnimationEnd msAnimationEnd mozAnimationEnd animationend", function(e){
+     ripple_wrap_1.removeClass('goripple_1');
    });
 
    $('body').on('click', '#projects', function(e) {
-     rippler.css('left', e.clientX + 'px');
-     rippler.css('top', e.clientY + 'px');
+     rippler_1.css('left', e.clientX + 'px');
+     rippler_1.css('top', e.clientY + 'px');
      e.preventDefault();
-     finish = false;
-     ripple_wrap.addClass('goripple');
-     window.requestAnimationFrame(function() {monitor(rippler[0])});
+     finish_1 = false;
+     ripple_wrap_1.addClass('goripple_1');
+     window.requestAnimationFrame(function() {monitor_1(rippler_1[0])});
    });
 
-   function swapContent() {
-       var newcontent = $('#main-content').html();
-       $('#main-content').html(storedcontent);
-       storedcontent = newcontent;
+   function swapContent_1() {
+       var newcontent_1 = $('#main-content').html();
+       $('#main-content').html(storedcontent_1);
+       storedcontent_1 = newcontent_1;
        // do some Ajax, put it in the DOM and then set this to true
        setTimeout(function() {
-         finish = true;
+         finish_1 = true;
        },10);
    }
 
  });
 
 
- /* Material Design Ripple transition - About Me */
+ /* Material Design Ripple transition - Blog */
   $(function() {
-    var ripple_wrapp = $('.ripple-wrap'),
-        ripplerr = $('.ripple'),
-        finishh = false,
-        monitorr = function(ell) {
-          var computedd = window.getComputedStyle(ell, null),
-              borderwidthh = parseFloat(computedd.getPropertyValue('border-left-width'));
-          if (!finishh && borderwidthh >= 800) {
-            ell.style.WebkitAnimationPlayState = "paused";
-            ell.style.animationPlayState = "paused";
-            swapContentt();
+    var ripple_wrap_2 = $('.ripple-wrap_2'),
+        rippler_2 = $('.ripple_2'),
+        finish_2 = false,
+        monitor_2 = function(el_2) {
+          var computed_2 = window.getComputedStyle(el_2, null),
+              borderwidth_2 = parseFloat(computed_2.getPropertyValue('border-left-width'));
+          if (!finish_2 && borderwidth_2 >= 800) {
+            el_2.style.WebkitAnimationPlayState = "paused";
+            el_2.style.animationPlayState = "paused";
+            swapContent_2();
           }
-          if (finishh) {
-            ell.style.WebkitAnimationPlayState = "running";
-            ell.style.animationPlayState = "running";
+          if (finish_2) {
+            el_2.style.WebkitAnimationPlayState = "running";
+            el_2.style.animationPlayState = "running";
             return;
           } else {
-            window.requestAnimationFrame(function() {monitorr(ell)});
+            window.requestAnimationFrame(function() {monitor_2(el_2)});
           }
         };
 
-    storedcontentt = $('#aboutMe-content').html();
-    $('#aboutMe-content').remove();
+    storedcontent_2 = $('#blog-content').html();
+    $('#blog-content').remove();
 
-    ripplerr.bind("webkitAnimationEnd oAnimationEnd msAnimationEnd mozAnimationEnd animationend", function(e){
-      ripple_wrapp.removeClass('goripple');
+    rippler_2.bind("webkitAnimationEnd oAnimationEnd msAnimationEnd mozAnimationEnd animationend", function(e){
+      ripple_wrap_2.removeClass('goripple_2');
     });
 
-    $('body').on('click', '#aboutMe', function(e) {
-      ripplerr.css('left', e.clientX + 'px');
-      ripplerr.css('top', e.clientY + 'px');
+    $('body').on('click', '#blog', function(e) {
+      rippler_2.css('left', e.clientX + 'px');
+      rippler_2.css('top', e.clientY + 'px');
       e.preventDefault();
-      finishh = false;
-      ripple_wrapp.addClass('goripple');
-      window.requestAnimationFrame(function() {monitorr(ripplerr[0])});
+      finish_2 = false;
+      ripple_wrap_2.addClass('goripple_2');
+      window.requestAnimationFrame(function() {monitor_2(rippler_2[0])});
     });
 
-    function swapContentt() {
-        var newcontentt = $('#main-content').html();
-        $('#main-content').html(storedcontentt);
-        storedcontentt = newcontentt;
+    function swapContent_2() {
+
+        var newcontent_2 = $('#main-content').html();
+        $('#main-content').html(storedcontent_2);
+        storedcontent_2 = newcontent_2;
         // do some Ajax, put it in the DOM and then set this to true
         setTimeout(function() {
-          finishh = true;
+          finish_2 = true;
         },10);
+        window.location = "https://medium.com/@0Skywalker";
     }
-
   });
+
+  /* Material Design Ripple transition - About Me */
+   $(function() {
+     var ripple_wrap_3 = $('.ripple-wrap_3'),
+         rippler_3 = $('.ripple_3'),
+         finish_3 = false,
+         monitor_3 = function(el_3) {
+           var computed_3 = window.getComputedStyle(el_3, null),
+               borderwidth_3 = parseFloat(computed_3.getPropertyValue('border-left-width'));
+           if (!finish_3 && borderwidth_3 >= 800) {
+             el_3.style.WebkitAnimationPlayState = "paused";
+             el_3.style.animationPlayState = "paused";
+             swapContent_3();
+           }
+           if (finish_3) {
+             el_3.style.WebkitAnimationPlayState = "running";
+             el_3.style.animationPlayState = "running";
+             return;
+           } else {
+             window.requestAnimationFrame(function() {monitor_3(el_3)});
+           }
+         };
+
+     storedcontent_3 = $('#aboutMe-content').html();
+     $('#aboutMe-content').remove();
+
+     rippler_3.bind("webkitAnimationEnd oAnimationEnd msAnimationEnd mozAnimationEnd animationend", function(e){
+       ripple_wrap_3.removeClass('goripple_3');
+     });
+
+     $('body').on('click', '#aboutMe', function(e) {
+       rippler_3.css('left', e.clientX + 'px');
+       rippler_3.css('top', e.clientY + 'px');
+       e.preventDefault();
+       finish_3 = false;
+       ripple_wrap_3.addClass('goripple_3');
+       window.requestAnimationFrame(function() {monitor_3(rippler_3[0])});
+     });
+
+     function swapContent_3() {
+         var newcontent_3 = $('#main-content').html();
+         $('#main-content').html(storedcontent_3);
+         storedcontent_3 = newcontent_3;
+         // do some Ajax, put it in the DOM and then set this to true
+         setTimeout(function() {
+           finish_3 = true;
+         },10);
+     }
+   });
