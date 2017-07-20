@@ -843,10 +843,10 @@ body{
     }
     100% {
       border-width: 4000px;
-      height: 4000px;
-      width: 4000px;
-      margin-top: -6000px;
-      margin-left: -6000px;
+      height: 6000px;
+      width: 6000px;
+      margin-top: -7000px;
+      margin-left: -7000px;
       border-color: #3498DB;
     }
   }
