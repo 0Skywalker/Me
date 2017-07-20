@@ -85,7 +85,7 @@
  -webkit-animation-duration: 2.3s;
  -webkit-animation-fill-mode: forwards;
  animation-name: RIPPLER_1;
- animation-duration: 2.3s;
+ animation-duration: 2s;
  animation-fill-mode: forwards;
 }
 
@@ -169,10 +169,10 @@
 }
 .ripple-wrap_2.goripple_2 .ripple_2 {        /*Duracion aceptable: 2.3, 2.2s, 2 */
  -webkit-animation-name: RIPPLER_2;
- -webkit-animation-duration: 2.3s;
+ -webkit-animation-duration: 2s;
  -webkit-animation-fill-mode: forwards;
  animation-name: RIPPLER_2;
- animation-duration: 2.3s;
+ animation-duration: 2s;
  animation-fill-mode: forwards;
 }
 
@@ -258,9 +258,9 @@
 }
 .ripple-wrap_3.goripple_3 .ripple_3 {        /*Duracion aceptable: 2.3, 2.2s, 2 */
  -webkit-animation-name: RIPPLER_3;
- -webkit-animation-duration: 2.3s;
+ -webkit-animation-duration: 2s;
  -webkit-animation-fill-mode: forwards;
  animation-name: RIPPLER_3;
- animation-duration: 2.3s;
+ animation-duration: 2s;
  animation-fill-mode: forwards;
 }
