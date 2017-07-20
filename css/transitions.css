@@ -17,7 +17,7 @@
     border-width: 800px;
     margin-top: -800px;
     margin-left: -800px;
-    border-color: #3498DB;
+    border-color: #F1C40F;
   }
   41% {
     height: 0;
@@ -25,7 +25,7 @@
     border-width: 800px;
     margin-top: -800px;
     margin-left: -800px;
-    border-color: #3498DB;
+    border-color: #F1C40F;
   }
   100% {
     border-width: 800px;
@@ -33,26 +33,26 @@
     width: 1500px;
     margin-top: -1550px;
     margin-left: -1550px;
-    border-color: #3498DB;
+    border-color: #F1C40F;
   }
 }
 @keyframes RIPPLER_1 {
   0%   { border-width: 0; }
-  20% {
-    height: 1px;
-    width: 1px;
+  40% {
+    height: 0;
+    width: 0;
     border-width: 800px;
     margin-top: -800px;
     margin-left: -800px;
-    border-color: #3498DB;
+    border-color: #F1C40F;
   }
-  21% {
-    height: 1px;
-    width: 1px;
+  41% {
+    height: 0;
+    width: 0;
     border-width: 800px;
     margin-top: -800px;
     margin-left: -800px;
-    border-color: #3498DB;
+    border-color: #F1C40F;
   }
   100% {
     border-width: 800px;
@@ -60,7 +60,7 @@
     width: 1500px;
     margin-top: -1550px;
     margin-left: -1550px;
-    border-color: #3498DB;
+    border-color: #F1C40F;
   }
 }
 .ripple_1 {
@@ -82,10 +82,10 @@
 }
 .ripple-wrap_1.goripple_1 .ripple_1 {        /*Duracion aceptable: 2.3, 2.2s, 2 */
  -webkit-animation-name: RIPPLER_1;
- -webkit-animation-duration: 2.5s;
+ -webkit-animation-duration: 1.7s;
  -webkit-animation-fill-mode: forwards;
  animation-name: RIPPLER_1;
- animation-duration: 2.5s;
+ animation-duration: 1.7s;
  animation-fill-mode: forwards;
 }
 
