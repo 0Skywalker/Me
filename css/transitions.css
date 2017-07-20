@@ -128,16 +128,12 @@
 @keyframes RIPPLER_2 {
   0%   { border-width: 0; }
   40% {
-    height: 0;
-    width: 0;
     border-width: 800px;
     margin-top: -800px;
     margin-left: -800px;
     border-color: #E74C3C;
   }
   41% {
-    height: 0;
-    width: 0;
     border-width: 800px;
     margin-top: -800px;
     margin-left: -800px;
@@ -265,10 +261,15 @@
  animation-fill-mode: forwards;
 }
 
+body{
+  background: pink;
+}
 
 /* Mobile horizontally or Tablets vertical */
 @media (min-width: 768px){
-
+  body{
+    background: lime;
+  }
   /* Ripple for Projects */
   .ripple-wrap_1 {
     display: none;
@@ -283,25 +284,25 @@
     40% {
       height: 0;
       width: 0;
-      border-width: 1000px;
-      margin-top: -1000px;
-      margin-left: -1000px;
+      border-width: 2000px;
+      margin-top: -2000px;
+      margin-left: -2000px;
       border-color: #3498DB;
     }
     41% {
       height: 0;
       width: 0;
-      border-width: 1000px;
-      margin-top: -1000px;
-      margin-left: -1000px;
+      border-width: 2000px;
+      margin-top: -2000px;
+      margin-left: -2000px;
       border-color: #3498DB;
     }
     100% {
-      border-width: 1000px;
-      height: 2000px;
-      width: 2000px;
-      margin-top: -2000px;
-      margin-left: -2000px;
+      border-width: 2000px;
+      height: 2500px;
+      width: 2500px;
+      margin-top: -3250px;
+      margin-left: -3250px;
       border-color: #3498DB;
     }
   }
@@ -310,25 +311,25 @@
     40% {
       height: 0;
       width: 0;
-      border-width: 1000px;
-      margin-top: -1000px;
-      margin-left: -1000px;
+      border-width: 2000px;
+      margin-top: -2000px;
+      margin-left: -2000px;
       border-color: #3498DB;
     }
     41% {
       height: 0;
       width: 0;
-      border-width: 1000px;
-      margin-top: -1000px;
-      margin-left: -1000px;
+      border-width: 2000px;
+      margin-top: -2000px;
+      margin-left: -2000px;
       border-color: #3498DB;
     }
     100% {
-      border-width: 1000px;
-      height: 2000px;
-      width: 2000px;
-      margin-top: -2000px;
-      margin-left: -2000px;
+      border-width: 2000px;
+      height: 2500px;
+      width: 2500px;
+      margin-top: -3250px;
+      margin-left: -3250px;
       border-color: #3498DB;
     }
   }
@@ -351,10 +352,10 @@
   }
   .ripple-wrap_1.goripple_1 .ripple_1 {
    -webkit-animation-name: RIPPLER_1;
-   -webkit-animation-duration: 1.7s;
+   -webkit-animation-duration: 2s;
    -webkit-animation-fill-mode: forwards;
    animation-name: RIPPLER_1;
-   animation-duration: 1.7s;
+   animation-duration: 2s;
    animation-fill-mode: forwards;
   }
 
@@ -382,8 +383,7 @@
       border-color: #E74C3C;
     }
     100% {
-      border-width: 2000px; /* No ocupa crecer porque no solo se necesita que el borde cubra la pantalla para que ocurra la por mietras la redirección */
-
+      border-width: 2000px;  /* No ocupa crecer porque no solo se necesita que el borde cubra la pantalla para que ocurra la por mietras la redirección */
       border-color: #E74C3C;
     }
   }
@@ -402,7 +402,7 @@
       border-color: #E74C3C;
     }
     100% {
-      border-width: 2000px; /* No ocupa crecer porque no solo se necesita que el borde cubra la pantalla para que ocurra la por mietras la redirección */
+      border-width: 2000px;  /* No ocupa crecer porque no solo se necesita que el borde cubra la pantalla para que ocurra la por mietras la redirección */
       border-color: #E74C3C;
     }
   }
@@ -446,25 +446,25 @@
     40% {
       height: 0;
       width: 0;
-      border-width: 1000px;
-      margin-top: -1000px;
-      margin-left: -1000px;
+      border-width: 2000px;
+      margin-top: -2000px;
+      margin-left: -2000px;
       border-color: #F1C40F;
     }
     41% {
       height: 0;
       width: 0;
-      border-width: 1000px;
-      margin-top: -1000px;
-      margin-left: -1000px;
+      border-width: 2000px;
+      margin-top: -2000px;
+      margin-left: -2000px;
       border-color: #F1C40F;
     }
     100% {
-      border-width: 1000px;
-      height: 2000px;
-      width: 2000px;
-      margin-top: -2000px;
-      margin-left: -2000px;
+      border-width: 2000px;
+      height: 2500px;
+      width: 2500px;
+      margin-top: -3250px;
+      margin-left: -3250px;
       border-color: #F1C40F;
     }
   }
@@ -473,25 +473,25 @@
     40% {
       height: 0;
       width: 0;
-      border-width: 1000px;
-      margin-top: -1000px;
-      margin-left: -1000px;
+      border-width: 2000px;
+      margin-top: -2000px;
+      margin-left: -2000px;
       border-color: #F1C40F;
     }
     41% {
       height: 0;
       width: 0;
-      border-width: 1000px;
-      margin-top: -1000px;
-      margin-left: -1000px;
+      border-width: 2000px;
+      margin-top: -2000px;
+      margin-left: -2000px;
       border-color: #F1C40F;
     }
     100% {
-      border-width: 1000px;
-      height: 2000px;
-      width: 2000px;
-      margin-top: -2000px;
-      margin-left: -2000px;
+      border-width: 2000px;
+      height: 2500px;
+      width: 2500px;
+      margin-top: -3250px;
+      margin-left: -3250px;
       border-color: #F1C40F;
     }
   }
@@ -514,298 +514,283 @@
   }
   .ripple-wrap_3.goripple_3 .ripple_3 {
    -webkit-animation-name: RIPPLER_3;
-   -webkit-animation-duration: 1.7s;
+   -webkit-animation-duration: 2s;
    -webkit-animation-fill-mode: forwards;
    animation-name: RIPPLER_3;
-   animation-duration: 1.7s;
+   animation-duration: 2s;
    animation-fill-mode: forwards;
   }
 }
 
 
+
+/* Tablets horizontally, Normal desks and Large desks*/
 @media (min-width: 1200px){
+  body{
+    background: aqua;
+  }
 
 
-  
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Large desks */
-/* Ripple for Projects */
-.ripple-wrap_1 {
-  display: none;
-  overflow: hidden;
-  position: fixed;
-  font-size: 0;
-  z-index: 1000;
-  top: 0; left: 0; right: 0; bottom: 0;
-}
-@-webkit-keyframes RIPPLER_1 {
-  0%   { border-width: 0; }
-  40% {
+/* Quad HD */
+@media (min-width: 2560px){
+  body{
+    background: tomato;
+  }
+  /* Ripple for Projects */
+  .ripple-wrap_1 {
+    display: none;
+    overflow: hidden;
+    position: fixed;
+    font-size: 0;
+    z-index: 1000;
+    top: 0; left: 0; right: 0; bottom: 0;
+  }
+  @-webkit-keyframes RIPPLER_1 {
+    0%   { border-width: 0; }
+    40% {
+      height: 0;
+      width: 0;
+      border-width: 4000px;
+      margin-top: -4000px;
+      margin-left: -4000px;
+      border-color: #3498DB;
+    }
+    41% {
+      height: 0;
+      width: 0;
+      border-width: 4000px;
+      margin-top: -4000px;
+      margin-left: -4000px;
+      border-color: #3498DB;
+    }
+    100% {
+      border-width: 4000px;
+      height: 4000px;
+      width: 4000px;
+      margin-top: -6000px;
+      margin-left: -6000px;
+      border-color: #3498DB;
+    }
+  }
+  @keyframes RIPPLER_1 {
+    0%   { border-width: 0; }
+    40% {
+      height: 0;
+      width: 0;
+      border-width: 4000px;
+      margin-top: -4000px;
+      margin-left: -4000px;
+      border-color: #3498DB;
+    }
+    41% {
+      height: 0;
+      width: 0;
+      border-width: 4000px;
+      margin-top: -4000px;
+      margin-left: -4000px;
+      border-color: #3498DB;
+    }
+    100% {
+      border-width: 4000px;
+      height: 4000px;
+      width: 4000px;
+      margin-top: -6000px;
+      margin-left: -6000px;
+      border-color: #3498DB;
+    }
+  }
+  .ripple_1 {
+    display: block;
     height: 0;
     width: 0;
-    border-width: 4000px;
-    margin-top: -4000px;
-    margin-left: -4000px;
+    border-width: 0px;
+    border-style: solid;
     border-color: #3498DB;
+    border-radius: 100%;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    -webkit-animation: none;
+    animation: none;
   }
-  41% {
-    height: 0;
-    width: 0;
-    border-width: 4000px;
-    margin-top: -4000px;
-    margin-left: -4000px;
-    border-color: #3498DB;
+  .ripple-wrap_1.goripple_1 {
+    display: block;
   }
-  100% {
-    border-width: 4000px;
-    height: 4000px;
-    width: 4000px;
-    margin-top: -6000px;
-    margin-left: -6000px;
-    border-color: #3498DB;
+  .ripple-wrap_1.goripple_1 .ripple_1 {
+   -webkit-animation-name: RIPPLER_1;
+   -webkit-animation-duration: 2s;
+   -webkit-animation-fill-mode: forwards;
+   animation-name: RIPPLER_1;
+   animation-duration: 2s;
+   animation-fill-mode: forwards;
   }
-}
-@keyframes RIPPLER_1 {
-  0%   { border-width: 0; }
-  40% {
-    height: 0;
-    width: 0;
-    border-width: 4000px;
-    margin-top: -4000px;
-    margin-left: -4000px;
-    border-color: #3498DB;
-  }
-  41% {
-    height: 0;
-    width: 0;
-    border-width: 4000px;
-    margin-top: -4000px;
-    margin-left: -4000px;
-    border-color: #3498DB;
-  }
-  100% {
-    border-width: 4000px;
-    height: 4000px;
-    width: 4000px;
-    margin-top: -6000px;
-    margin-left: -6000px;
-    border-color: #3498DB;
-  }
-}
-.ripple_1 {
-  display: block;
-  height: 0;
-  width: 0;
-  border-width: 0px;
-  border-style: solid;
-  border-color: #3498DB;
-  border-radius: 100%;
-  position: absolute;
-  top: 300px;
-  left: 300px;
-  -webkit-animation: none;
-  animation: none;
-}
-.ripple-wrap_1.goripple_1 {
-  display: block;
-}
-.ripple-wrap_1.goripple_1 .ripple_1 {
- -webkit-animation-name: RIPPLER_1;
- -webkit-animation-duration: 2s;
- -webkit-animation-fill-mode: forwards;
- animation-name: RIPPLER_1;
- animation-duration: 2s;
- animation-fill-mode: forwards;
-}
 
-/* Ripple for Blog */
-.ripple-wrap_2 {
-  display: none;
-  overflow: hidden;
-  position: fixed;
-  font-size: 0;
-  z-index: 1000;
-  top: 0; left: 0; right: 0; bottom: 0;
-}
-@-webkit-keyframes RIPPLER_2 {
-  0%   { border-width: 0; }
-  40% {
-    border-width: 4000px;
-    margin-top: -4000px;
-    margin-left: -4000px;
-    border-color: #E74C3C;
+  /* Ripple for Blog */
+  .ripple-wrap_2 {
+    display: none;
+    overflow: hidden;
+    position: fixed;
+    font-size: 0;
+    z-index: 1000;
+    top: 0; left: 0; right: 0; bottom: 0;
   }
-  41% {
-    border-width: 4000px;
-    margin-top: -4000px;
-    margin-left: -4000px;
-    border-color: #E74C3C;
+  @-webkit-keyframes RIPPLER_2 {
+    0%   { border-width: 0; }
+    40% {
+      border-width: 4000px;
+      margin-top: -4000px;
+      margin-left: -4000px;
+      border-color: #E74C3C;
+    }
+    41% {
+      border-width: 4000px;
+      margin-top: -4000px;
+      margin-left: -4000px;
+      border-color: #E74C3C;
+    }
+    100% {
+      border-width: 4000px;
+      margin-top: -6000px;
+      margin-left: -6000px;
+      border-color: #E74C3C;
+    }
   }
-  100% {
-    border-width: 4000px;
-    margin-top: -6000px;
-    margin-left: -6000px;
-    border-color: #E74C3C;
+  @keyframes RIPPLER_2 {
+    0%   { border-width: 0; }
+    40% {
+      border-width: 4000px;
+      margin-top: -4000px;
+      margin-left: -4000px;
+      border-color: #E74C3C;
+    }
+    41% {
+      border-width: 4000px;
+      margin-top: -4000px;
+      margin-left: -4000px;
+      border-color: #E74C3C;
+    }
+    100% {
+      border-width: 4000px;
+      margin-top: -6000px;
+      margin-left: -6000px;
+      border-color: #E74C3C;
+    }
   }
-}
-@keyframes RIPPLER_2 {
-  0%   { border-width: 0; }
-  40% {
-    border-width: 4000px;
-    margin-top: -4000px;
-    margin-left: -4000px;
+  .ripple_2 {
+    display: block;
+    height: 0;
+    width: 0;
+    border-width: 0px;
+    border-style: solid;
     border-color: #E74C3C;
+    border-radius: 100%;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    -webkit-animation: none;
+    animation: none;
   }
-  41% {
-    border-width: 4000px;
-    margin-top: -4000px;
-    margin-left: -4000px;
-    border-color: #E74C3C;
+  .ripple-wrap_2.goripple_2 {
+    display: block;
   }
-  100% {
-    border-width: 4000px;
-    margin-top: -6000px;
-    margin-left: -6000px;
-    border-color: #E74C3C;
+  .ripple-wrap_2.goripple_2 .ripple_2 {
+   -webkit-animation-name: RIPPLER_2;
+   -webkit-animation-duration: 2.5s;
+   -webkit-animation-fill-mode: forwards;
+   animation-name: RIPPLER_2;
+   animation-duration: 2.5s;
+   animation-fill-mode: forwards;
   }
-}
-.ripple_2 {
-  display: block;
-  height: 0;
-  width: 0;
-  border-width: 0px;
-  border-style: solid;
-  border-color: #E74C3C;
-  border-radius: 100%;
-  position: absolute;
-  top: 300px;
-  left: 300px;
-  -webkit-animation: none;
-  animation: none;
-}
-.ripple-wrap_2.goripple_2 {
-  display: block;
-}
-.ripple-wrap_2.goripple_2 .ripple_2 {
- -webkit-animation-name: RIPPLER_2;
- -webkit-animation-duration: 2.5s;
- -webkit-animation-fill-mode: forwards;
- animation-name: RIPPLER_2;
- animation-duration: 2.5s;
- animation-fill-mode: forwards;
-}
 
-/* Ripple for About Me */
-.ripple-wrap_3 {
-  display: none;
-  overflow: hidden;
-  position: fixed;
-  font-size: 0;
-  z-index: 1000;
-  top: 0; left: 0; right: 0; bottom: 0;
-}
-@-webkit-keyframes RIPPLER_3 {
-  0%   { border-width: 0; }
-  40% {
+  /* Ripple for About Me */
+  .ripple-wrap_3 {
+    display: none;
+    overflow: hidden;
+    position: fixed;
+    font-size: 0;
+    z-index: 1000;
+    top: 0; left: 0; right: 0; bottom: 0;
+  }
+  @-webkit-keyframes RIPPLER_3 {
+    0%   { border-width: 0; }
+    40% {
+      height: 0;
+      width: 0;
+      border-width: 4000px;
+      margin-top: -4000px;
+      margin-left: -4000px;
+      border-color: #F1C40F;
+    }
+    41% {
+      height: 0;
+      width: 0;
+      border-width: 4000px;
+      margin-top: -4000px;
+      margin-left: -4000px;
+      border-color: #F1C40F;
+    }
+    100% {
+      border-width: 4000px;
+      height: 4000px;
+      width: 4000px;
+      margin-top: -6000px;
+      margin-left: -6000px;
+      border-color: #F1C40F;
+    }
+  }
+  @keyframes RIPPLER_3 {
+    0%   { border-width: 0; }
+    40% {
+      height: 0;
+      width: 0;
+      border-width: 4000px;
+      margin-top: -4000px;
+      margin-left: -4000px;
+      border-color: #F1C40F;
+    }
+    41% {
+      height: 0;
+      width: 0;
+      border-width: 4000px;
+      margin-top: -4000px;
+      margin-left: -4000px;
+      border-color: #F1C40F;
+    }
+    100% {
+      border-width: 4000px;
+      height: 4000px;
+      width: 4000px;
+      margin-top: -6000px;
+      margin-left: -6000px;
+      border-color: #F1C40F;
+    }
+  }
+  .ripple_3 {
+    display: block;
     height: 0;
     width: 0;
-    border-width: 4000px;
-    margin-top: -4000px;
-    margin-left: -4000px;
+    border-width: 0px;
+    border-style: solid;
     border-color: #F1C40F;
+    border-radius: 100%;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    -webkit-animation: none;
+    animation: none;
   }
-  41% {
-    height: 0;
-    width: 0;
-    border-width: 4000px;
-    margin-top: -4000px;
-    margin-left: -4000px;
-    border-color: #F1C40F;
+  .ripple-wrap_3.goripple_3 {
+    display: block;
   }
-  100% {
-    border-width: 4000px;
-    height: 4000px;
-    width: 4000px;
-    margin-top: -6000px;
-    margin-left: -6000px;
-    border-color: #F1C40F;
+  .ripple-wrap_3.goripple_3 .ripple_3 {
+   -webkit-animation-name: RIPPLER_3;
+   -webkit-animation-duration: 2s;
+   -webkit-animation-fill-mode: forwards;
+   animation-name: RIPPLER_3;
+   animation-duration: 1.7s;
+   animation-fill-mode: forwards;
   }
-}
-@keyframes RIPPLER_3 {
-  0%   { border-width: 0; }
-  40% {
-    height: 0;
-    width: 0;
-    border-width: 4000px;
-    margin-top: -4000px;
-    margin-left: -4000px;
-    border-color: #F1C40F;
-  }
-  41% {
-    height: 0;
-    width: 0;
-    border-width: 4000px;
-    margin-top: -4000px;
-    margin-left: -4000px;
-    border-color: #F1C40F;
-  }
-  100% {
-    border-width: 4000px;
-    height: 4000px;
-    width: 4000px;
-    margin-top: -6000px;
-    margin-left: -6000px;
-    border-color: #F1C40F;
-  }
-}
-.ripple_3 {
-  display: block;
-  height: 0;
-  width: 0;
-  border-width: 0px;
-  border-style: solid;
-  border-color: #F1C40F;
-  border-radius: 100%;
-  position: absolute;
-  top: 300px;
-  left: 300px;
-  -webkit-animation: none;
-  animation: none;
-}
-.ripple-wrap_3.goripple_3 {
-  display: block;
-}
-.ripple-wrap_3.goripple_3 .ripple_3 {
- -webkit-animation-name: RIPPLER_3;
- -webkit-animation-duration: 2s;
- -webkit-animation-fill-mode: forwards;
- animation-name: RIPPLER_3;
- animation-duration: 1.7s;
- animation-fill-mode: forwards;
 }
