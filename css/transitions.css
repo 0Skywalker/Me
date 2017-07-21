@@ -264,6 +264,7 @@
 /* Mobile horizontally or Tablets vertical */
 @media (min-width: 768px) {
 
+body{background: red;}
   /* Ripple for Projects */
   .ripple-wrap_1 {
     display: none;
@@ -320,10 +321,10 @@
     }
     100% {
       border-width: 2000px;
-      height: 2500px;
-      width: 2500px;
-      margin-top: -3250px;
-      margin-left: -3250px;
+      height: 5000px;
+      width: 5000px;
+      margin-top: -4500px;
+      margin-left: -4500px;
       border-color: #3498DB;
     }
   }
@@ -520,6 +521,7 @@
 /* Tablets horizontally, Normal desks and Large desks */
 @media (min-width: 1200px) {
 
+  body{background: green;}
   /* Ripple for Projects */
   .ripple-wrap_1 {
     display: none;
