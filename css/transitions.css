@@ -60,7 +60,7 @@
     width: 1500px;
     margin-top: -1550px;
     margin-left: -1550px;
-    border-color: #3498db;
+    border-color: #fff;
   }
 }
 .ripple_1 {
@@ -143,7 +143,7 @@
     border-width: 800px;
     margin-top: -800px;
     margin-left: -800px;
-    border-color: #E74C3C;
+    border-color: #fff;
   }
 }
 .ripple_2 {
@@ -232,7 +232,7 @@
     width: 1500px;
     margin-top: -1550px;
     margin-left: -1550px;
-    border-color: #F1C40F;
+    border-color: #fff;
   }
 }
 .ripple_3 {
