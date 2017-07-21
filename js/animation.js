@@ -5,6 +5,9 @@ $(function() {
    });
  });
 
+
+
+
  /* Material Design Ripple transition - Projects */
  $(document).ready(function() {
     var ripple_wrap_1 = $('.ripple-wrap_1'),
@@ -51,6 +54,9 @@ $(function() {
         setTimeout(function() {
           finish_1 = true;
         },10);
+        $('body,html').animate({
+        scrollTop : 0                       // Scroll to top of body
+    }, 500);
     }
   });
 
@@ -59,6 +65,7 @@ $(function() {
 
   /* Material Design Ripple transition - Blog */
  $(document).ready(function() {
+
      var ripple_wrap_2 = $('.ripple-wrap_2'),
          rippler_2 = $('.ripple_2'),
          finish_2 = false,
@@ -157,5 +164,8 @@ $(function() {
           setTimeout(function() {
             finish_3 = true;
           },10);
+          $('body,html').animate({
+        scrollTop : 0                       // Scroll to top of body
+    }, 0);
       }
     });
