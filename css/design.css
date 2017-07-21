@@ -166,6 +166,7 @@ div #aboutMe img{
   text-align: center;
 }
 
+/******************************************************************************/
  #aboutMe-article{
   padding-top: 40px;
   text-align: center;
@@ -175,8 +176,8 @@ div #aboutMe img{
   //padding: 10px;
   //margin: 40px;
 }
-/*es para menores de 768, hacer uno para los otros */
 #fab{
+  z-index: 9999;
   position: fixed;
   right: 25px;
   bottom: 25px;
@@ -187,16 +188,19 @@ div #aboutMe img{
   border-radius: 50%;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+
 }
 #fab:hover {
   box-shadow: 0 10px 22px rgba(0,0,0,0.21), 0 6px 6px rgba(0,0,0,0.21);
 }
+/******************************************************************************/
 
 footer{
   //background: red;
   text-align: center;
   //padding: 20px;
   margin-top: 10px;
+  z-index: -1;
 }
 
 /* Mobile horizontally or Tablets vertical */
