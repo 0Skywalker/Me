@@ -6,7 +6,7 @@ $(function() {
  });
 
 /* Material Design Ripple transition - Projects */
- $(function() {
+$(document).ready(function() {
    var ripple_wrap_1 = $('.ripple-wrap_1'),
        rippler_1 = $('.ripple_1'),
        finish_1 = false,
@@ -52,12 +52,10 @@ $(function() {
          finish_1 = true;
        },10);
    }
-
  });
 
-
  /* Material Design Ripple transition - Blog */
-  $(function() {
+$(document).ready(function() {
     var ripple_wrap_2 = $('.ripple-wrap_2'),
         rippler_2 = $('.ripple_2'),
         finish_2 = false,
@@ -108,7 +106,7 @@ $(function() {
   });
 
   /* Material Design Ripple transition - About Me */
-   $(function() {
+$(document).ready(function() {
      var ripple_wrap_3 = $('.ripple-wrap_3'),
          rippler_3 = $('.ripple_3'),
          finish_3 = false,
@@ -155,8 +153,3 @@ $(function() {
          },10);
      }
    });
-
-
-
-
-  
