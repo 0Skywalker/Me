@@ -397,10 +397,6 @@
       border-color: #E74C3C;
     }
     100% {
-      height: 5000px;
-      width: 5000px;
-      margin-top: -4500px;
-      margin-left: -4500px;
       border-width: 2000px;  /* No ocupa crecer porque no solo se necesita que el borde cubra la pantalla para que ocurra la por mietras la redirección */
       border-color: #E74C3C;
     }
