@@ -195,7 +195,7 @@ $(function() {
              }
            };
 
-       storedcontent_4 = $('#main-content').html();
+       storedcontent_4 = $('#aboutMe-content').html();
        $('#aboutMe-content').remove();
 
        rippler_4.bind("webkitAnimationEnd oAnimationEnd msAnimationEnd mozAnimationEnd animationend", function(e){
