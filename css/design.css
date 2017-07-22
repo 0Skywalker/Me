@@ -177,7 +177,7 @@ div #aboutMe img{
   //margin: 40px;
 }
 #fab{
-  z-index: 9999;
+  //z-index: 9999;
   position: fixed;
   right: 25px;
   bottom: 25px;
