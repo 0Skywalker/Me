@@ -193,6 +193,9 @@ div #aboutMe img{
 #fab:hover {
   box-shadow: 0 10px 22px rgba(0,0,0,0.21), 0 6px 6px rgba(0,0,0,0.21);
 }
+#fab:active{
+  width: 100px;
+}
 /******************************************************************************/
 
 footer{

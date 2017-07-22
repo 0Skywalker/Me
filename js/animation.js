@@ -174,6 +174,7 @@ $(function() {
 /****************************************************************************************************************************/
 
     /* FAB - About Me */
+/*
   $(document).ready(function() {
        var ripple_wrap_4 = $('.ripple-wrap_4'),
            rippler_4 = $('.ripple_4'),
@@ -197,6 +198,7 @@ $(function() {
 
        storedcontent_4 = $('#aboutMe-content').html();
        $('#aboutMe-content').remove();
+
 
        rippler_4.bind("webkitAnimationEnd oAnimationEnd msAnimationEnd mozAnimationEnd animationend", function(e){
          ripple_wrap_4.removeClass('goripple_4');
@@ -224,4 +226,5 @@ $(function() {
      }, 0);
        }
      });
+     */
 /****************************************************************************************************************************/
