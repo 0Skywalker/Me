@@ -195,8 +195,8 @@ $(function() {
              }
            };
 
-       storedcontent_4 = $('#main-content').html();
-       $('#aboutMe-content').remove();
+       //storedcontent_4 = $('#main-content').html();
+       //$('#aboutMe-content').remove();
 
        rippler_4.bind("webkitAnimationEnd oAnimationEnd msAnimationEnd mozAnimationEnd animationend", function(e){
          ripple_wrap_4.removeClass('goripple_4');
