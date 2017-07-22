@@ -95,45 +95,25 @@ table tr td {
   //background: gray;
 }
 
-div #projects{
+
+/*************************************** START TOPICOS ***************************************/
+
+/*clase btn*/
+.btn{
   width: 70px;
   height: 70px;
-  background: #3498DB;
   text-align: center;
   border-radius: 50%;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   transition: all 0.5s cubic-bezier(.25,.8,.25,1);
 }
 
-div #projects:hover {
-  box-shadow: 0 10px 22px rgba(0,0,0,0.21), 0 6px 6px rgba(0,0,0,0.21);
-}
-
-div #projects img{
-  margin-top: 23px;
-}
-
-div #blog{
-  width: 70px;
-  height: 70px;
-  background: #E74C3C;
-  text-align: center;
-  border-radius: 50%;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  transition: all 0.5s cubic-bezier(.25,.8,.25,1);
-}
-
-div #blog:hover {
-  box-shadow: 0 10px 22px rgba(0,0,0,0.21), 0 6px 6px rgba(0,0,0,0.21);
-}
-
-div #blog img{
-  margin-top: 23px;
-}
-
-div #aboutMe{
-  width: 70px;
-  height: 70px;
+.mini-btn{
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  width: 56px;
+  height: 56px;
   background: #F1C40F;
   text-align: center;
   border-radius: 50%;
@@ -141,13 +121,41 @@ div #aboutMe{
   transition: all 0.5s cubic-bezier(.25,.8,.25,1);
 }
 
+/* PROJECTS */
+div #projects{
+  background: #3498DB;
+}
+div #projects:hover {
+  box-shadow: 0 10px 22px rgba(0,0,0,0.21), 0 6px 6px rgba(0,0,0,0.21);
+}
+div #projects img{
+  margin-top: 23px;
+}
+
+/* BLOG */
+div #blog{
+  background: #E74C3C;
+}
+div #blog:hover {
+  box-shadow: 0 10px 22px rgba(0,0,0,0.21), 0 6px 6px rgba(0,0,0,0.21);
+}
+div #blog img{
+  margin-top: 23px;
+}
+
+/* ABOUT ME */
+div #aboutMe{
+  background: #F1C40F;
+}
 div #aboutMe:hover {
   box-shadow: 0 10px 22px rgba(0,0,0,0.21), 0 6px 6px rgba(0,0,0,0.21);
 }
-
 div #aboutMe img{
   margin-top: 23px;
 }
+
+/*************************************** END TOPICOS ***************************************/
+
 
 #div_email {
   //background: red;
@@ -166,6 +174,8 @@ div #aboutMe img{
   text-align: center;
 }
 
+
+
 /******************************************************************************/
  #aboutMe-article{
   padding-top: 40px;
@@ -177,7 +187,7 @@ div #aboutMe img{
   //margin: 40px;
 }
 div #fab{
-  //z-index: 9999;
+  z-index: 9999;
   position: fixed;
   right: 25px;
   bottom: 25px;
@@ -192,10 +202,17 @@ div #fab{
 #fab:hover {
   box-shadow: 0 10px 22px rgba(0,0,0,0.21), 0 6px 6px rgba(0,0,0,0.21);
 }
-#fab:active{
-  width: 100px;
-}
-/******************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
 
 footer{
   //background: red;
