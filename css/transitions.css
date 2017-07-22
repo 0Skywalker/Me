@@ -17,7 +17,7 @@
     border-width: 800px;
     margin-top: -800px;
     margin-left: -800px;
-    border-color: #3498DB;
+    border-color: #3498db;
   }
   41% {
     height: 0;
@@ -25,7 +25,7 @@
     border-width: 800px;
     margin-top: -800px;
     margin-left: -800px;
-    border-color: #3498DB;
+    border-color: #3498db;
   }
   100% {
     border-width: 800px;
@@ -33,7 +33,7 @@
     width: 1500px;
     margin-top: -1550px;
     margin-left: -1550px;
-    border-color: #3498DB;
+    border-color: #fff;
   }
 }
 @keyframes RIPPLER_1 {
@@ -101,16 +101,12 @@
 @-webkit-keyframes RIPPLER_2 {
   0%   { border-width: 0; }
   40% {
-    height: 0;
-    width: 0;
     border-width: 800px;
     margin-top: -800px;
     margin-left: -800px;
     border-color: #E74C3C;
   }
   41% {
-    height: 0;
-    width: 0;
     border-width: 800px;
     margin-top: -800px;
     margin-left: -800px;
@@ -118,11 +114,9 @@
   }
   100% {
     border-width: 800px;
-    //height: 1500px;
-    //width: 1500px;
-    margin-top: -1550px;
-    margin-left: -1550px;
-    border-color: #E74C3C;
+    margin-top: -800px;
+    margin-left: -800px;
+    border-color: #fff;
   }
 }
 @keyframes RIPPLER_2 {
@@ -205,7 +199,7 @@
     width: 1500px;
     margin-top: -1550px;
     margin-left: -1550px;
-    border-color: #F1C40F;
+    border-color: #fff;
   }
 }
 @keyframes RIPPLER_3 {
@@ -379,7 +373,7 @@
     }
     100% {
       border-width: 2000px;  /* No ocupa crecer porque no solo se necesita que el borde cubra la pantalla para que ocurra la por mietras la redirección */
-      border-color: #E74C3C;
+      border-color: #fff;
     }
   }
   @keyframes RIPPLER_2 {
@@ -398,7 +392,7 @@
     }
     100% {
       border-width: 2000px;  /* No ocupa crecer porque no solo se necesita que el borde cubra la pantalla para que ocurra la por mietras la redirección */
-      border-color: #E74C3C;
+      border-color: #fff;
     }
   }
   .ripple_2 {
@@ -460,7 +454,7 @@
       width: 5000px;
       margin-top: -4500px;
       margin-left: -4500px;
-      border-color: #F1C40F;
+      border-color: #fff;
     }
   }
   @keyframes RIPPLER_3 {
@@ -487,7 +481,7 @@
       width: 5000px;
       margin-top: -4500px;
       margin-left: -4500px;
-      border-color: #F1C40F;
+      border-color: #fff;
     }
   }
   .ripple_3 {
@@ -554,7 +548,7 @@
       width: 3700px;
       margin-top: -4850px;
       margin-left: -4850px;
-      border-color: #3498DB;
+      border-color: #fff;
     }
   }
   @keyframes RIPPLER_1 {
@@ -581,7 +575,7 @@
       width: 3700px;
       margin-top: -4850px;
       margin-left: -4850px;
-      border-color: #3498DB;
+      border-color: #fff;
     }
   }
   .ripple_1 {
@@ -635,7 +629,7 @@
     }
     100% {
       border-width: 3000px;  /* No ocupa crecer porque no solo se necesita que el borde cubra la pantalla para que ocurra la por mietras la redirección */
-      border-color: #E74C3C;
+      border-color: #fff;
     }
   }
   @keyframes RIPPLER_2 {
@@ -654,7 +648,7 @@
     }
     100% {
       border-width: 3000px;  /* No ocupa crecer porque no solo se necesita que el borde cubra la pantalla para que ocurra la por mietras la redirección */
-      border-color: #E74C3C;
+      border-color: #fff;
     }
   }
   .ripple_2 {
@@ -716,7 +710,7 @@
       width: 3700px;
       margin-top: -4850px;
       margin-left: -4850px;
-      border-color: #F1C40F;
+      border-color: #fff;
     }
   }
   @keyframes RIPPLER_3 {
@@ -743,7 +737,7 @@
       width: 3700px;
       margin-top: -4850px;
       margin-left: -4850px;
-      border-color: #F1C40F;
+      border-color: #fff;
     }
   }
   .ripple_3 {
@@ -810,7 +804,7 @@
       width: 9000px;
       margin-top: -8500px;
       margin-left: -8500px;
-      border-color: #3498DB;
+      border-color: #fff;
     }
   }
   @keyframes RIPPLER_1 {
@@ -837,7 +831,7 @@
       width: 9000px;
       margin-top: -8500px;
       margin-left: -8500px;
-      border-color: #3498DB;
+      border-color: #fff;
     }
   }
   .ripple_1 {
@@ -891,7 +885,7 @@
     }
     100% {
       border-width: 4000px;
-      border-color: #E74C3C;
+      border-color: #fff;
     }
   }
   @keyframes RIPPLER_2 {
@@ -906,7 +900,7 @@
       border-width: 4000px;
       margin-top: -4000px;
       margin-left: -4000px;
-      border-color: #E74C3C;
+      border-color: #fff;
     }
     100% {
       border-width: 4000px;
@@ -972,7 +966,7 @@
       width: 9000px;
       margin-top: -8500px;
       margin-left: -8500px;
-      border-color: #F1C40F;
+      border-color: #fff;
     }
   }
   @keyframes RIPPLER_3 {
@@ -999,7 +993,7 @@
       width: 9000px;
       margin-top: -8500px;
       margin-left: -8500px;
-      border-color: #F1C40F;
+      border-color: #fff;
     }
   }
   .ripple_3 {
@@ -1030,8 +1024,7 @@
 }
 
 
-
-/* a */
+/* fab - about me */
 .ripple-wrap_4 {
   display: none;
   overflow: hidden;
@@ -1048,7 +1041,7 @@
     border-width: 800px;
     margin-top: -800px;
     margin-left: -800px;
-    border-color: #3498DB;
+    border-color: #F1C40F;
   }
   41% {
     height: 0;
@@ -1056,7 +1049,7 @@
     border-width: 800px;
     margin-top: -800px;
     margin-left: -800px;
-    border-color: #3498DB;
+    border-color: #F1C40F;
   }
   100% {
     border-width: 800px;
@@ -1064,7 +1057,7 @@
     width: 1500px;
     margin-top: -1550px;
     margin-left: -1550px;
-    border-color: #3498DB;
+    border-color: #fff;
   }
 }
 @keyframes RIPPLER_4 {
@@ -1075,7 +1068,7 @@
     border-width: 800px;
     margin-top: -800px;
     margin-left: -800px;
-    border-color: #3498db;
+    border-color: #F1C40F;
   }
   41% {
     height: 0;
@@ -1083,7 +1076,7 @@
     border-width: 800px;
     margin-top: -800px;
     margin-left: -800px;
-    border-color: #3498db;
+    border-color: #F1C40F;
   }
   100% {
     border-width: 800px;
@@ -1100,7 +1093,7 @@
   width: 0;
   border-width: 0px;
   border-style: solid;
-  border-color: #3498db;
+  border-color: #F1C40F;
   border-radius: 100%;
   position: absolute;
   top: 300px;

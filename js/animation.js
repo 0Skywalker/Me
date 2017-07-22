@@ -169,3 +169,59 @@ $(function() {
     }, 0);
       }
     });
+
+
+/****************************************************************************************************************************/
+
+    /* FAB - About Me */
+  $(document).ready(function() {
+       var ripple_wrap_4 = $('.ripple-wrap_4'),
+           rippler_4 = $('.ripple_4'),
+           finish_4 = false,
+           monitor_4 = function(el_4) {
+             var computed_4 = window.getComputedStyle(el_4, null),
+                 borderwidth_4 = parseFloat(computed_4.getPropertyValue('border-left-width'));
+             if (!finish_4 && borderwidth_4 >= 800) {
+               el_4.style.WebkitAnimationPlayState = "paused";
+               el_4.style.animationPlayState = "paused";
+               swapContent_4();
+             }
+             if (finish_4) {
+               el_4.style.WebkitAnimationPlayState = "running";
+               el_4.style.animationPlayState = "running";
+               return;
+             } else {
+               window.requestAnimationFrame(function() {monitor_4(el_4)});
+             }
+           };
+
+       storedcontent_4 = $('#main-content').html();
+       $('#aboutMe-content').remove();
+
+       rippler_4.bind("webkitAnimationEnd oAnimationEnd msAnimationEnd mozAnimationEnd animationend", function(e){
+         ripple_wrap_4.removeClass('goripple_4');
+       });
+
+       $('body').on('click', '#fab', function(e) {
+         rippler_4.css('left', e.clientX + 'px');
+         rippler_4.css('top', e.clientY + 'px');
+         e.preventDefault();
+         finish_4 = false;
+         ripple_wrap_4.addClass('goripple_4');
+         window.requestAnimationFrame(function() {monitor_4(rippler_4[0])});
+       });
+
+       function swapContent_4() {
+           var newcontent_4 = $('#main-content').html();
+           $('#main-content').html(storedcontent_4);
+           storedcontent_4 = newcontent_4;
+           // do some Ajax, put it in the DOM and then set this to true
+           setTimeout(function() {
+             finish_4 = true;
+           },10);
+           $('body,html').animate({
+         scrollTop : 0                       // Scroll to top of body
+     }, 0);
+       }
+     });
+/****************************************************************************************************************************/
