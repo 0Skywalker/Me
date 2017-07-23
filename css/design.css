@@ -1,4 +1,6 @@
-/* Normal Styles - For mobiles vertical */
+/*************************************************************************************************************************/
+/********************************************* Normal Styles - For mobiles vertical **************************************/
+/*************************************************************************************************************************/
 header {
   line-height: 7px;
   //background: red;
@@ -7,19 +9,26 @@ header {
   margin-top: 25px;
 
 }
-
+body {
+  //background: lime;
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust:none;
+}
+footer{
+  text-align: center;
+  margin-top: 10px;
+}
 h2{
   font-family: 'Roboto Mono', monospace;
   opacity: 1;
   font-weight: 100;
   text-align: center;
 }
-
 h4{
   font-weight: 100;
   opacity: .54;
 }
-
 h5{
   font-family: 'Roboto Mono', monospace;
   opacity: .54;
@@ -27,7 +36,6 @@ h5{
   text-align: center;
   //background: gray;
 }
-
 h6{
   font-family: 'Roboto Mono', monospace;
   opacity: .54;
@@ -35,90 +43,39 @@ h6{
   text-align: center;
   //background: lime;
 }
-
-body {
-  //background: lime;
-  margin: 0;
-  padding: 0;
-  -webkit-text-size-adjust:none;
-}
-
-hr {
-  width: 200px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border: 0;
-  border-top: 1px solid #ddd;
-}
-
 a:link {
     color: #2980b9;
     text-decoration: none;
 }
-
 a:visited {
     color: #2980b9;
     text-decoration: none;
 }
 
-#extract h4{
-  font-family: 'Roboto Mono', monospace;
-  //background: red;
-  text-align: center;
-  background: purple;
-}
-
 #main-content {
-  //background: white;
   padding-top: 20px;
   padding-bottom: 10px;
-  //margin: 20px auto;
-  //border-radius: 2px;
-  //box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
-
 #myTopics_1 {
-  //border-style: solid;
-  //background: lime;
   margin: auto;
   border-spacing: 15px;
   font-family: 'Roboto Mono', monospace;
   font-weight: 100;
 }
-
 #myTopics_2 {
   display: none;
 }
-
-table tr td {
-  //border-style: solid;
-  //background: gray;
-}
-
-
-/*************************************** START TOPICOS ***************************************/
-
-/* Class for buttons */
-.btn{
-  width: 70px;
-  height: 70px;
+#div_email {
   text-align: center;
-  border-radius: 50%;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+  margin: -10px auto;
+  height: 25px;
+  padding-top: 1px;
 }
-
-.mini-btn{
-  position: fixed;
-  right: 25px;
-  bottom: 25px;
-  width: 56px;
-  height: 56px;
-  background: #F1C40F;
+#p_email {
+  display: none;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 100;
   text-align: center;
-  border-radius: 50%;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  transition: all 0.5s cubic-bezier(.25,.8,.25,1);
 }
 
 /* PROJECTS */
@@ -133,6 +90,13 @@ div #projects img{
 }
 div #projects #mini{
     margin-top: 16px;
+}
+#projects-article {
+  padding-top: 40px;
+  text-align: center;
+  background: white;
+  margin-top: -165px;
+  position: relative;
 }
 
 /* BLOG */
@@ -159,38 +123,7 @@ div #aboutMe img{
 div #aboutMe #mini{
     margin-top: 16px;
 }
-
-/*************************************** END TOPICOS ***************************************/
-
-
-#div_email {
-  //background: red;
-  text-align: center;
-  margin: -10px auto;
-  height: 25px;
-  padding-top: 1px;
-
-}
-
-#p_email {
-  display: none;
-  font-family: 'Roboto Mono', monospace;
-  //opacity: .54;
-  font-weight: 100;
-  text-align: center;
-}
-
-/************************************* PROJECTS CONTENT *************************************/
-
-#projects-article{
-  padding-top: 40px;
-  text-align: center;
-  background: white; /*blanco porque si no se ve el header detras*/
-  margin-top: -165px;
-  position: relative;
-}
-
- #aboutMe-article{
+#aboutMe-article {
   padding-top: 40px;
   text-align: center;
   background: white;
@@ -198,9 +131,16 @@ div #aboutMe #mini{
   position: relative;
 }
 
-
-div #fab{
-  z-index: 9999;
+/* CLASS */
+.btn{
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+.mini-btn{
   position: fixed;
   right: 25px;
   bottom: 25px;
@@ -212,57 +152,30 @@ div #fab{
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   transition: all 0.5s cubic-bezier(.25,.8,.25,1);
 }
-#fab:hover {
-  box-shadow: 0 10px 22px rgba(0,0,0,0.21), 0 6px 6px rgba(0,0,0,0.21);
-}
 
-
-
-
-
-
-
-
-
-
-
-
-footer{
-  //background: red;
-  text-align: center;
-  //padding: 20px;
-  margin-top: 10px;
-}
-
-/* Mobile horizontally or Tablets vertical */
+/*************************************************************************************************************************/
+/******************************************** Mobile horizontally or Tablets vertical ************************************/
+/*************************************************************************************************************************/
 @media (min-width: 768px) {
-  body {
-    background: blue;
-  }
-
   h4 {
     font-weight: 100;
     opacity: .54;
-    //background: red;
   }
-
   table tr td h4 {
     opacity: .74;
-    //background: lime;
   }
-
   table tr td h5 {
     text-align: left;
-    //background: yellow;
     margin-top: -15px;
+  }
+  table tr td {
+    vertical-align: middle;
   }
 
   #myTopics_1 {
     display: none;
   }
-
   #myTopics_2 {
-    //background: lime;
     margin: auto;
     border-spacing: 15px;
     font-family: 'Roboto Mono', monospace;
@@ -271,12 +184,7 @@ footer{
     display: table;
   }
 
-  table tr td {
-    //background: gray;
-    vertical-align: middle;
-    //line-height: 5px;
-  }
-
+  /* PROJECTS */
   div #projects{
     width: 100px;
     height: 100px;
@@ -285,25 +193,24 @@ footer{
     border-radius: 50%;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   }
-
   div #projects img{
     margin-top: 30px;
   }
 
+  /* BLOG */
   div #blog{
     width: 100px;
     height: 100px;
     background: #E74C3C;
     text-align: center;
-    //margin-left: 152px;
     border-radius: 50%;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   }
-
   div #blog img{
     margin-top: 30px;
   }
 
+  /* ABOUT ME */
   div #aboutMe{
     width: 100px;
     height: 100px;
@@ -312,57 +219,28 @@ footer{
     border-radius: 50%;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   }
-
   div #aboutMe img{
     margin-top: 30px;
   }
-
 }
 
-/* Tablets horizontally and Normal desks */
+/*************************************************************************************************************************/
+/********************************************* Tablets horizontally and Normal desks *************************************/
+/*************************************************************************************************************************/
 @media (min-width: 1024px) {
-  body {
-    //background: green;
-  }
-
   #myTopics_2 {
-    //background: lime;
-    //margin: auto;
-    //border-spacing: 15px;
-    //font-family: 'Roboto Mono', monospace;
-    //font-weight: 100;
     width: 800px;
   }
-
-  table tr td {
-    //background: gray;
-    //vertical-align: middle;
-    //line-height: 5px;
-  }
-
 }
 
-/* large desks */
+/*************************************************************************************************************************/
+/****************************************************** large desks ******************************************************/
+/*************************************************************************************************************************/
 @media (min-width: 1200px) {
-  body {
-    //background: blue;
-  }
-
-  #myTopics_2 {
-    //background: lime;
-    //margin: auto;
-    //border-spacing: 50px;
-    //font-family: 'Roboto Mono', monospace;
-    //font-weight: 100;
-    width: 1000px;
-  }
-
   table tr td {
-    //background: gray;
-    //vertical-align: middle;
-    //line-height: 5px;
     height: 150px;
   }
-
-
+  #myTopics_2 {
+    width: 1000px;
+  }
 }

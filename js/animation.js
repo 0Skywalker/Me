@@ -54,8 +54,8 @@ $(document).ready(function() {
         finish_1 = true;
       },10);
       $('body,html').animate({
-      scrollTop : 0                       // Scroll to top of body
-  }, 500);
+        scrollTop : 0                       // Scroll to top of body
+      }, 500);
   }
 });
 
@@ -158,7 +158,7 @@ $(document).ready(function() {
         finish_3 = true;
       },10);
       $('body,html').animate({
-    scrollTop : 0                       // Scroll to top of body
-    }, 0);
+        scrollTop : 0                       // Scroll to top of body
+      }, 500);
   }
 });
