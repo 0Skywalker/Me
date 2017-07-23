@@ -255,6 +255,194 @@
  animation-fill-mode: forwards;
 }
 
+/* Mini buton - Projects */
+.ripple-wrap_4 {
+  display: none;
+  overflow: hidden;
+  position: fixed;
+  font-size: 0;
+  z-index: 1000;
+  top: 0; left: 0; right: 0; bottom: 0;
+}
+@-webkit-keyframes RIPPLER_4 {
+  0%   { border-width: 0; }
+  40% {
+    height: 0;
+    width: 0;
+    border-width: 800px;
+    margin-top: -800px;
+    margin-left: -800px;
+    border-color: #3498db;
+  }
+  41% {
+    height: 0;
+    width: 0;
+    border-width: 800px;
+    margin-top: -800px;
+    margin-left: -800px;
+    border-color: #3498db;
+  }
+  100% {
+    border-width: 800px;
+    height: 1500px;
+    width: 1500px;
+    margin-top: -1550px;
+    margin-left: -1550px;
+    border-color: #fff;
+  }
+}
+@keyframes RIPPLER_4 {
+  0%   { border-width: 0; }
+  40% {
+    height: 0;
+    width: 0;
+    border-width: 800px;
+    margin-top: -800px;
+    margin-left: -800px;
+    border-color: #3498db;
+  }
+  41% {
+    height: 0;
+    width: 0;
+    border-width: 800px;
+    margin-top: -800px;
+    margin-left: -800px;
+    border-color: #3498db;
+  }
+  100% {
+    border-width: 800px;
+    height: 1500px;
+    width: 1500px;
+    margin-top: -1550px;
+    margin-left: -1550px;
+    border-color: #fff;
+  }
+}
+.ripple_4 {
+  display: block;
+  height: 0;
+  width: 0;
+  border-width: 0px;
+  border-style: solid;
+  border-color: #3498db;
+  border-radius: 100%;
+  position: absolute;
+  top: 300px;
+  left: 300px;
+  -webkit-animation: none;
+  animation: none;
+}
+.ripple-wrap_4.goripple_4 {
+  display: block;
+}
+.ripple-wrap_4.goripple_4 .ripple_4 {
+ -webkit-animation-name: RIPPLER_4;
+ -webkit-animation-duration: 2s;
+ -webkit-animation-fill-mode: forwards;
+ animation-name: RIPPLER_4;
+ animation-duration: 2s;
+ animation-fill-mode: forwards;
+}
+
+/* Mini buton - About Me */
+.ripple-wrap_5 {
+  display: none;
+  overflow: hidden;
+  position: fixed;
+  font-size: 0;
+  z-index: 1000;
+  top: 0; left: 0; right: 0; bottom: 0;
+}
+@-webkit-keyframes RIPPLER_5 {
+  0%   { border-width: 0; }
+  40% {
+    height: 0;
+    width: 0;
+    border-width: 800px;
+    margin-top: -800px;
+    margin-left: -800px;
+    border-color: #F1C40F;
+  }
+  41% {
+    height: 0;
+    width: 0;
+    border-width: 800px;
+    margin-top: -800px;
+    margin-left: -800px;
+    border-color: #F1C40F;
+  }
+  100% {
+    border-width: 800px;
+    height: 1500px;
+    width: 1500px;
+    margin-top: -1550px;
+    margin-left: -1550px;
+    border-color: #fff;
+  }
+}
+@keyframes RIPPLER_5 {
+  0%   { border-width: 0; }
+  40% {
+    height: 0;
+    width: 0;
+    border-width: 800px;
+    margin-top: -800px;
+    margin-left: -800px;
+    border-color: #F1C40F;
+  }
+  41% {
+    height: 0;
+    width: 0;
+    border-width: 800px;
+    margin-top: -800px;
+    margin-left: -800px;
+    border-color: #F1C40F;
+  }
+  100% {
+    border-width: 800px;
+    height: 1500px;
+    width: 1500px;
+    margin-top: -1550px;
+    margin-left: -1550px;
+    border-color: #fff;
+  }
+}
+.ripple_5 {
+  display: block;
+  height: 0;
+  width: 0;
+  border-width: 0px;
+  border-style: solid;
+  border-color: #F1C40F;
+  border-radius: 100%;
+  position: absolute;
+  top: 300px;
+  left: 300px;
+  -webkit-animation: none;
+  animation: none;
+}
+.ripple-wrap_5.goripple_5 {
+  display: block;
+}
+.ripple-wrap_5.goripple_5 .ripple_5 {
+ -webkit-animation-name: RIPPLER_5;
+ -webkit-animation-duration: 2s;
+ -webkit-animation-fill-mode: forwards;
+ animation-name: RIPPLER_5;
+ animation-duration: 2s;
+ animation-fill-mode: forwards;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* Mobile horizontally or Tablets vertical */
 @media (min-width: 768px) {
 
@@ -1021,94 +1209,4 @@
    animation-duration: 2s;
    animation-fill-mode: forwards;
   }
-}
-
-
-/* fab - about me */
-.ripple-wrap_4 {
-  display: none;
-  overflow: hidden;
-  position: fixed;
-  font-size: 0;
-  z-index: 1000;
-  top: 0; left: 0; right: 0; bottom: 0;
-}
-@-webkit-keyframes RIPPLER_4 {
-  0%   { border-width: 0; }
-  40% {
-    height: 0;
-    width: 0;
-    border-width: 800px;
-    margin-top: -800px;
-    margin-left: -800px;
-    border-color: #F1C40F;
-  }
-  41% {
-    height: 0;
-    width: 0;
-    border-width: 800px;
-    margin-top: -800px;
-    margin-left: -800px;
-    border-color: #F1C40F;
-  }
-  100% {
-    border-width: 800px;
-    height: 1500px;
-    width: 1500px;
-    margin-top: -1550px;
-    margin-left: -1550px;
-    border-color: #fff;
-  }
-}
-@keyframes RIPPLER_4 {
-  0%   { border-width: 0; }
-  40% {
-    height: 0;
-    width: 0;
-    border-width: 800px;
-    margin-top: -800px;
-    margin-left: -800px;
-    border-color: #F1C40F;
-  }
-  41% {
-    height: 0;
-    width: 0;
-    border-width: 800px;
-    margin-top: -800px;
-    margin-left: -800px;
-    border-color: #F1C40F;
-  }
-  100% {
-    border-width: 800px;
-    height: 1500px;
-    width: 1500px;
-    margin-top: -1550px;
-    margin-left: -1550px;
-    border-color: #fff;
-  }
-}
-.ripple_4 {
-  display: block;
-  height: 0;
-  width: 0;
-  border-width: 0px;
-  border-style: solid;
-  border-color: #F1C40F;
-  border-radius: 100%;
-  position: absolute;
-  top: 300px;
-  left: 300px;
-  -webkit-animation: none;
-  animation: none;
-}
-.ripple-wrap_4.goripple_4 {
-  display: block;
-}
-.ripple-wrap_4.goripple_4 .ripple_4 {
- -webkit-animation-name: RIPPLER_4;
- -webkit-animation-duration: 2s;
- -webkit-animation-fill-mode: forwards;
- animation-name: RIPPLER_4;
- animation-duration: 2s;
- animation-fill-mode: forwards;
 }

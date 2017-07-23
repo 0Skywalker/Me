@@ -98,7 +98,7 @@ table tr td {
 
 /*************************************** START TOPICOS ***************************************/
 
-/*clase btn*/
+/* Class for buttons */
 .btn{
   width: 70px;
   height: 70px;
@@ -131,6 +131,9 @@ div #projects:hover {
 div #projects img{
   margin-top: 23px;
 }
+div #projects #mini{
+    margin-top: 16px;
+}
 
 /* BLOG */
 div #blog{
@@ -153,7 +156,6 @@ div #aboutMe:hover {
 div #aboutMe img{
   margin-top: 23px;
 }
-
 div #aboutMe #mini{
     margin-top: 16px;
 }
@@ -178,18 +180,25 @@ div #aboutMe #mini{
   text-align: center;
 }
 
+/************************************* PROJECTS CONTENT *************************************/
 
-
-/******************************************************************************/
- #aboutMe-article{
+#projects-article{
   padding-top: 40px;
   text-align: center;
   background: white; /*blanco porque si no se ve el header detras*/
   margin-top: -165px;
   position: relative;
-  //padding: 10px;
-  //margin: 40px;
 }
+
+ #aboutMe-article{
+  padding-top: 40px;
+  text-align: center;
+  background: white;
+  margin-top: -165px;
+  position: relative;
+}
+
+
 div #fab{
   z-index: 9999;
   position: fixed;
