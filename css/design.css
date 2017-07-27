@@ -42,6 +42,13 @@ h6 {
   font-weight: 100;
   text-align: center;
 }
+span{
+  background: rgb(50, 215, 0);
+  color: white;
+  border-radius: 3px;
+  white-space: pre;
+  line-height: 23px;
+}
 a:link {
     color: #2980b9;
     text-decoration: none;
