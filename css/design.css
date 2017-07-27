@@ -73,15 +73,15 @@ a:visited {
   display: none;
   font-family: 'Roboto Mono', monospace;
   font-weight: 100;
-  opacity: .87;
+  opacity: .89;
   text-align: center;
 }
 #me {
   height: 200px;
   width: 200px;
-  -ms-transform: rotate(90deg); /* IE 9 */
-  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-  transform: rotate(90deg);
+  //-ms-transform: rotate(90deg); /* IE 9 */
+  //-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  //transform: rotate(90deg);
 }
 
 /* PROJECTS */
