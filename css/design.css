@@ -72,8 +72,8 @@ a:visited {
 #p_email {
   display: none;
   font-family: 'Roboto Mono', monospace;
-  opacity: .94;
   font-weight: 100;
+  opacity: .84;
   text-align: center;
 }
 #me {
@@ -135,7 +135,6 @@ div #aboutMe #mini {
   background: white;
   margin-top: -165px;
   position: relative;
-  opacity: .54;
   font-weight: 100;
   font-family: 'Roboto Mono', monospace;
 }
