@@ -173,8 +173,8 @@ div #aboutMe #mini {
   position: fixed;
   right: 25px;
   bottom: 25px;
-  width: 56px !important;
-  height: 56px !important;
+  width: 56px;
+  height: 56px;
   background: gray;
   text-align: center;
   border-radius: 50%;
