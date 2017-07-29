@@ -55,7 +55,7 @@ $(document).ready(function() {
       },10);
       $('body,html').animate({
         scrollTop : 0                       // Scroll to top of body
-      }, 0);
+      }, 500);
   }
 });
 
@@ -159,6 +159,6 @@ $(document).ready(function() {
       },10);
       $('body,html').animate({
         scrollTop : 0                       // Scroll to top of body
-      }, 0);
+      }, 500);
   }
 });
