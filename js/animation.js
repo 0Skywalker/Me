@@ -15,7 +15,7 @@ $(document).ready(function() {
       monitor_1 = function(el_1) {
         var computed_1 = window.getComputedStyle(el_1, null),
             borderwidth_1 = parseFloat(computed_1.getPropertyValue('border-left-width'));
-        if (!finish_1 && borderwidth_1 >= 1200) {
+        if (!finish_1 && borderwidth_1 >= 1000) {
           el_1.style.WebkitAnimationPlayState = "paused";
           el_1.style.animationPlayState = "paused";
           swapContent_1();
@@ -68,7 +68,7 @@ $(document).ready(function() {
      monitor_2 = function(el_2) {
        var computed_2 = window.getComputedStyle(el_2, null),
            borderwidth_2 = parseFloat(computed_2.getPropertyValue('border-left-width'));
-       if (!finish_2 && borderwidth_2 >= 1200) {
+       if (!finish_2 && borderwidth_2 >= 1000) {
          el_2.style.WebkitAnimationPlayState = "paused";
          el_2.style.animationPlayState = "paused";
          swapContent_2();
@@ -119,7 +119,7 @@ $(document).ready(function() {
       monitor_3 = function(el_3) {
         var computed_3 = window.getComputedStyle(el_3, null),
             borderwidth_3 = parseFloat(computed_3.getPropertyValue('border-left-width'));
-        if (!finish_3 && borderwidth_3 >= 1200) {
+        if (!finish_3 && borderwidth_3 >= 1000) {
           el_3.style.WebkitAnimationPlayState = "paused";
           el_3.style.animationPlayState = "paused";
           swapContent_3();
