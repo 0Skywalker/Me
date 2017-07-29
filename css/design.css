@@ -87,16 +87,6 @@ a:visited {
   height: 200px;
   width: 200px;
 }
-#socialMedia {
-  text-align: center;
-}
-#socialMedia img{
-  padding-top: 15px;
-  padding-left: 10px;
-  padding-right: 5px;
-  padding-bottom: 30px;
-  margin-left: -10px;
-}
 
 /* PROJECTS */
 div #projects {
