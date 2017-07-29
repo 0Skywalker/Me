@@ -86,11 +86,17 @@ a:visited {
 #me {
   height: 200px;
   width: 200px;
-  //-ms-transform: rotate(90deg); /* IE 9 */
-  //-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-  //transform: rotate(90deg);
 }
-
+#socialMedia {
+  text-align: center;
+  background: pink;
+}
+#socialMedia img{
+  background: red;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
 /* PROJECTS */
 div #projects {
   background: #3498DB;
