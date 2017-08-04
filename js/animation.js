@@ -5,6 +5,11 @@ $(function() {
    });
  });
 
+ $("#findFace").click(function () {
+ 	$("#contenido").slideToggle("slow");
+});
+
+
 /* Material Design Ripple transition - Projects */
 $(document).ready(function() {
   var ripple_wrap_1 = $('.ripple-wrap_1'),
