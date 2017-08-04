@@ -83,10 +83,10 @@
   }
   .ripple-wrap_1.goripple_1 .ripple_1 {
    -webkit-animation-name: RIPPLER_1;
-   -webkit-animation-duration: 2s;
+   -webkit-animation-duration: 2.5s;
    -webkit-animation-fill-mode: forwards;
    animation-name: RIPPLER_1;
-   animation-duration: 2s;
+   animation-duration: 2.5s;
    animation-fill-mode: forwards;
   }
 
@@ -261,10 +261,10 @@
   }
   .ripple-wrap_3.goripple_3 .ripple_3 {
    -webkit-animation-name: RIPPLER_3;
-   -webkit-animation-duration: 2s;
+   -webkit-animation-duration: 2.5s;
    -webkit-animation-fill-mode: forwards;
    animation-name: RIPPLER_3;
-   animation-duration: 2s;
+   animation-duration: 2.5s;
    animation-fill-mode: forwards;
   }
 }
