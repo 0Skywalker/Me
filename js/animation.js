@@ -150,6 +150,7 @@ $(document).ready(function() {
   });
 
   function swapContent_3() {
+    $("#p_email").show();
       var newcontent_3 = $('#main-content').html();
       $('#main-content').html(storedcontent_3);
       storedcontent_3 = newcontent_3;
