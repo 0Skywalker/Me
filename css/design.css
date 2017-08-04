@@ -201,7 +201,8 @@ div #aboutMe #mini {
   font-family: 'Roboto Mono', monospace;
 }
 .mini-logo {
-  
+  width: 58px;
+  height: 58px;
   padding: 6px;
   padding-top: 8px;
 }
