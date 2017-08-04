@@ -195,7 +195,7 @@ div #aboutMe #mini {
   background: white;
   height: 80px;
   width: 300px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.13);
   border-radius: 2px;
   margin: auto;
   font-family: 'Roboto Mono', monospace;
