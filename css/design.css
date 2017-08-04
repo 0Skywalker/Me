@@ -159,18 +159,6 @@ div #aboutMe #mini {
 }
 
 
-.slider {
-  padding-left: 16px;
-}
-
-#screenshots {
-  overflow: hidden;
-
-}
-#contenido {
-  overflow: auto;
-  white-space: nowrap;
-}
 
 #description {
   padding-left: 16px;
@@ -241,8 +229,13 @@ div #aboutMe #mini {
   margin-top: -10px;
 }
 .hr-card{
-  opacity: .54;
+  opacity: .44;
   margin-top: 0px;
+}
+.slider {
+  padding-left: 16px;
+  overflow: auto;
+  white-space: nowrap;
 }
 
 
