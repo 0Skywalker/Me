@@ -159,9 +159,12 @@ div #aboutMe #mini {
 }
 
 
-
+#slider {
+  padding-left: 18px;
+  //background: red;
+}
 #description {
-  padding-left: 20px;
+  padding-left: 18px;
 }
 
 /* CLASS */
