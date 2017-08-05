@@ -96,6 +96,9 @@ a:visited {
   padding-right: 10px;
   padding-bottom: 30px;
 }
+#myTopics_2 a {
+  cursor: default;
+}
 
 /* PROJECTS */
 div #projects {
@@ -116,7 +119,9 @@ div #projects #mini {
   margin-top: -165px;
   position: relative;
 }
-
+#description {
+  padding-left: 16px;
+}
 
 /* BLOG */
 div #blog {
@@ -159,10 +164,6 @@ div #aboutMe #mini {
 }
 
 
-
-#description {
-  padding-left: 16px;
-}
 
 /* CLASS */
 .btn {
@@ -244,6 +245,7 @@ div #aboutMe #mini {
 /******************************************** Mobile horizontally or Tablets vertical ************************************/
 /*************************************************************************************************************************/
 @media (min-width: 768px) {
+  body{background:blue;}
   h4 {
     font-weight: 100;
     opacity: .54;
@@ -320,7 +322,6 @@ div #aboutMe #mini {
   #myTopics_2 {
     width: 800px;
   }
-  body{background:blue;}
 }
 
 /*************************************************************************************************************************/
