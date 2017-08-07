@@ -5,9 +5,7 @@ $(function() {
    });
  });
 
- $("#findFace").click(function () {
- 	$("#contenido").slideToggle("slow");
-});
+
 
 
 /* Material Design Ripple transition - Projects */
