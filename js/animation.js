@@ -8,7 +8,7 @@ $(function() {
 /* Card */
 $('body').on('click', '#findFace', function(e) {
   $("#findFace").toggleClass('open_card');
-  $("#card_content").toggle(280);
+  $("#card_content").toggle(200);
 });
 
 /* Material Design Ripple transition - Projects */
