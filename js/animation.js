@@ -5,7 +5,10 @@ $(function() {
    });
  });
 
-
+/* Card */
+$('body').on('click', '#findFace', function(e) {
+  document.getElementById("findFace").classList.toggle('open_card');
+});
 
 
 /* Material Design Ripple transition - Projects */
