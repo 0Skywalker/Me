@@ -211,7 +211,7 @@ div #aboutMe #mini {
   display: none;
 }
 .open_card {
-  -webkit-transform:translate(0px, -100px);
+  -webkit-transform:translate(0px, -115px);
   height: 310px;
 }
 
@@ -252,7 +252,7 @@ div #aboutMe #mini {
   font-weight: 100;
   font-size: 11px;
   padding-left: 16px;
-  margin-top: 4px;
+  margin-top: 6px;
 }
 
 
