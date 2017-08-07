@@ -7,9 +7,10 @@ $(function() {
 
 /* Card */
 $('body').on('click', '#findFace', function(e) {
-  document.getElementById("findFace").classList.toggle('open_card');
+  //alert("click!");
+  $("#findFace").toggleClass('open_card');
+  $("#card_content").toggle(200);
 });
-
 
 /* Material Design Ripple transition - Projects */
 $(document).ready(function() {
