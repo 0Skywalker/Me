@@ -161,7 +161,10 @@ div #aboutMe #mini {
 }
 
 
-
+#findFace
+{
+  background: red;
+}
 /* CLASS */
 .btn {
   width: 70px;
@@ -196,7 +199,7 @@ div #aboutMe #mini {
     border-radius: 50%;
 }
 .card {
-  background: white;
+  //background: white;
   width: 310px;
   height: 80px;
   border-radius: 2px;
