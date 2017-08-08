@@ -8,6 +8,7 @@ header {
   margin-top: 25px;
 }
 body {
+  background: #FAFAFA;
   margin: 0;
   padding: 0;
   -webkit-text-size-adjust:none;
@@ -147,7 +148,7 @@ div #aboutMe #mini {
 #aboutMe-article {
   padding-top: 40px;
   text-align: center;
-  background: white;
+  background: #FAFAFA;
   margin-top: -165px;
   position: relative;
   font-weight: 100;
