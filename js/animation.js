@@ -6,6 +6,7 @@ $(function() {
  });
 
 /* Card */
+/*
 $('body').on('click touchstart', '#findFace', function(e) {
   $("#findFace").toggleClass('open_card');
   $("#card_content").toggle(250);
@@ -15,6 +16,7 @@ $('body').on('click', '#Commands-in-the-air', function(e) {
   $("#Commands-in-the-air").toggleClass('open_card');
   $("#card_content_2").toggle(250);
 });
+*/
 
 /* Material Design Ripple transition - Projects */
 $(document).ready(function() {
