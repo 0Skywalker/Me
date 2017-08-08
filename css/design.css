@@ -208,6 +208,9 @@ div #aboutMe #mini {
 .hide {
   display: none;
 }
+.invisible {
+  opacity: 0;
+}
 .open_card {
   -webkit-transform:translate(0px, -40px);
   height: 310px;
@@ -264,6 +267,16 @@ div #aboutMe #mini {
 .animate {
    -webkit-animation: ripple 0.8s linear;
    animation: ripple 0.8s linear;
+}
+.grid {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  flex-flow: row wrap;
+  padding-bottom: 150px;
+  justify-content: space-around;
+  justify-content: space-between;
+  -webkit-justify-content: space-around;
 }
 @-webkit-keyframes ripple {
    100% {
@@ -353,23 +366,6 @@ div #aboutMe #mini {
   }
 }
 
-/* CLASS */
-.card {
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 70px;
-}
-.grid {
-  display: flex;
-  display: -webkit-flex;
-  align-items: center;
-  flex-flow: row wrap;
-  padding-bottom: 150px;
-  justify-content: space-around;
-  justify-content: space-between;
-  -webkit-justify-content: space-around;
-}
-
 /*************************************************************************************************************************/
 /********************************************* Tablets horizontally and Normal desks *************************************/
 /*************************************************************************************************************************/
@@ -383,7 +379,7 @@ div #aboutMe #mini {
 /****************************************************** large desks ******************************************************/
 /*************************************************************************************************************************/
 @media (min-width: 1200px) {
-  table tr td {
+  #myTopics_2 tr td {
     height: 150px;
   }
   #myTopics_2 {
