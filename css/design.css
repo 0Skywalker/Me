@@ -206,6 +206,7 @@ div #aboutMe #mini {
   position: relative;
   //cursor: pointer;
   //user-select: none;
+  z-index: 9999;
 }
 .hide {
   display: none;
