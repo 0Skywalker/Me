@@ -1,9 +1,9 @@
-/* Fade in/out - E-mail */
-$(function() {
- $("#ic_email").click(function() {
-     $("#p_email").fadeIn(300);
-   });
- });
+/* Fade in/out - e-mail */
+$(document).ready(function(){
+  $("#ic_email").click(function() {
+      $("#p_email").fadeIn(300);
+    });
+});
 
 /* Material Design Ripple - Cards */
 $(document).ready(function() {
@@ -72,7 +72,6 @@ $(document).ready(function() {
   }
 });
 
-
 /* Material Design Ripple transition - Blog */
 $(document).ready(function() {
   var ripple_wrap_2 = $('.ripple-wrap_2'),
@@ -123,7 +122,6 @@ $(document).ready(function() {
      window.location = "https://medium.com/@0Skywalker";
   }
 });
-
 
 /* Material Design Ripple transition - About Me */
 $(document).ready(function() {

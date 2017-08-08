@@ -284,7 +284,6 @@ div #aboutMe #mini {
 /******************************************** Mobile horizontally or Tablets vertical ************************************/
 /*************************************************************************************************************************/
 @media (min-width: 768px) {
-  body{background:white;}
   h4 {
     font-weight: 100;
     opacity: .54;
@@ -352,6 +351,23 @@ div #aboutMe #mini {
   div #aboutMe img {
     margin-top: 30px;
   }
+}
+
+/* CLASS */
+.card {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 70px;
+}
+.grid {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  flex-flow: row wrap;
+  padding-bottom: 150px;
+  justify-content: space-around;
+  justify-content: space-between;
+  -webkit-justify-content: space-around;
 }
 
 /*************************************************************************************************************************/
