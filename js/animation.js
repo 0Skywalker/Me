@@ -6,15 +6,15 @@ $(function() {
  });
 
 /* Card */
-
+/*
 $('body').on('click touchstart', '#findFace', function(e) {
-  alert('findFace');
+
 });
 
 $('body').on('click', '#Commands-in-the-air', function(e) {
-  alert(e);
-});
 
+});
+*/
 
 /* Material Design Ripple transition - Projects */
 $(document).ready(function() {
