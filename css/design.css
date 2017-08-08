@@ -251,8 +251,6 @@ div #aboutMe #mini {
   padding-left: 16px;
   margin-top: 6px;
 }
-
-
 .ripple {
    background-color: rgba(0, 0, 0, 0.10);
    border-radius: 100%;
@@ -263,12 +261,10 @@ div #aboutMe #mini {
    -webkit-transform: scale(0);
    transform: scale(0);
 }
-
 .animate {
-   -webkit-animation: ripple 0.4s linear;
+   -webkit-animation: ripple 0.8s linear;
    animation: ripple 0.8s linear;
 }
-
 @-webkit-keyframes ripple {
    100% {
       -webkit-transform: scale(12);
@@ -276,7 +272,6 @@ div #aboutMe #mini {
       background-color: transparent;
    }
 }
-
 @keyframes ripple {
    100% {
       -webkit-transform: scale(12);

@@ -5,8 +5,7 @@ $(function() {
    });
  });
 
-/* Card */
-
+/* Material Design Ripple - Cards */
 $(document).ready(function() {
   $('body').on('click touchstart', '.card', function(e) {
        var ripple = $(this).find(".ripple");
@@ -19,16 +18,6 @@ $(document).ready(function() {
        }).addClass("animate");
   });
 });
-
-/*
-$('body').on('touchstart click', '#findFace', function(e) {
-
-});
-
-$('body').on('click', '#Commands-in-the-air', function(e) {
-
-});
-*/
 
 /* Material Design Ripple transition - Projects */
 $(document).ready(function() {
