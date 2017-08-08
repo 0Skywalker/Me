@@ -284,7 +284,7 @@ div #aboutMe #mini {
 /******************************************** Mobile horizontally or Tablets vertical ************************************/
 /*************************************************************************************************************************/
 @media (min-width: 768px) {
-  body{background:blue;}
+  body{background:white;}
   h4 {
     font-weight: 100;
     opacity: .54;
