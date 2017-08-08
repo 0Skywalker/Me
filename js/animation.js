@@ -6,7 +6,7 @@ $(function() {
  });
 
 /* Card */
-$('body').on('click', '#findFace', function(e) {
+$('body').on('click touchstart', '#findFace', function(e) {
   $("#findFace").toggleClass('open_card');
   //$("#card_content").toggle(250);
 });
