@@ -7,14 +7,17 @@ $(function() {
 
 /* Card */
 
+
+
+/*
 $('body').on('touchstart click', '#findFace', function(e) {
-  
+
 });
 
 $('body').on('click', '#Commands-in-the-air', function(e) {
 
 });
-
+*/
 
 /* Material Design Ripple transition - Projects */
 $(document).ready(function() {
