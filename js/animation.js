@@ -8,7 +8,7 @@ $(function() {
 /* Card */
 
 $(document).ready(function() {
-  $('body').on('touchstart click', '.card', function(e) {
+  $('body').on('click', '.card', function(e) {
        var ripple = $(this).find(".ripple");
        ripple.removeClass("animate");
        var x = parseInt(e.pageX - $(this).offset().left) - (ripple.width() / 2);
