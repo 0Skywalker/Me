@@ -1,7 +1,7 @@
 /* Fade in/out - e-mail */
 $(document).ready(function(){
   $("#ic_email").click(function() {
-      $("#p_email").fadeIn(300);
+      $("#p_email").fadeToggle(300);
     });
 });
 
@@ -57,19 +57,18 @@ $(document).ready(function() {
     window.requestAnimationFrame(function() {monitor_1(rippler_1[0])});
   });
 
-  function swapContent_1() {
-    $("#p_email").show();
-      var newcontent_1 = $('#main-content').html();
-      $('#main-content').html(storedcontent_1);
-      storedcontent_1 = newcontent_1;
-      // do some Ajax, put it in the DOM and then set this to true
-      setTimeout(function() {
-        finish_1 = true;
-      },10);
-      $('body,html').animate({
-        scrollTop : 0                       // Scroll to top of body
-      }, 500);
-  }
+function swapContent_1() {
+  $("#p_email").show();
+  var newcontent_1 = $('#main-content').html();
+  $('#main-content').html(storedcontent_1);
+  storedcontent_1 = newcontent_1;
+  setTimeout(function() {
+    finish_1 = true;
+  },10);
+  $('body,html').animate({
+    scrollTop : 0
+  }, 500);
+}
 });
 
 /* Material Design Ripple transition - Blog */
@@ -110,16 +109,15 @@ $(document).ready(function() {
    window.requestAnimationFrame(function() {monitor_2(rippler_2[0])});
   });
 
-  function swapContent_2() {
-    $("#p_email").show();
-     var newcontent_2 = $('#main-content').html();
-     $('#main-content').html(storedcontent_2);
-     storedcontent_2 = newcontent_2;
-     // do some Ajax, put it in the DOM and then set this to true
-     setTimeout(function() {
-       finish_2 = true;
-     },10);
-     window.location = "https://medium.com/@0Skywalker";
+function swapContent_2() {
+   $("#p_email").show();
+   var newcontent_2 = $('#main-content').html();
+   $('#main-content').html(storedcontent_2);
+   storedcontent_2 = newcontent_2;
+   setTimeout(function() {
+     finish_2 = true;
+   },10);
+   window.location = "https://medium.com/@0Skywalker";
   }
 });
 
@@ -161,17 +159,16 @@ $(document).ready(function() {
     window.requestAnimationFrame(function() {monitor_3(rippler_3[0])});
   });
 
-  function swapContent_3() {
-    $("#p_email").show();
-      var newcontent_3 = $('#main-content').html();
-      $('#main-content').html(storedcontent_3);
-      storedcontent_3 = newcontent_3;
-      // do some Ajax, put it in the DOM and then set this to true
-      setTimeout(function() {
-        finish_3 = true;
-      },10);
-      $('body,html').animate({
-        scrollTop : 0                       // Scroll to top of body
-      }, 500);
+function swapContent_3() {
+  $("#p_email").show();
+  var newcontent_3 = $('#main-content').html();
+  $('#main-content').html(storedcontent_3);
+  storedcontent_3 = newcontent_3;
+  setTimeout(function() {
+    finish_3 = true;
+  },10);
+  $('body,html').animate({
+    scrollTop : 0
+  }, 500);
   }
 });
