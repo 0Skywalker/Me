@@ -8,7 +8,7 @@ header {
   margin-top: 25px;
 }
 body {
-  background: #FAFAFA;
+  background: #ffffff;
   margin: 0;
   padding: 0;
   -webkit-text-size-adjust:none;
@@ -103,7 +103,7 @@ a:visited {
 
 /* PROJECTS */
 div #projects {
-  background: #000000;//2196F3
+  background: #000000;
 }
 div #projects:hover {
   box-shadow: 0 10px 22px rgba(0,0,0,0.21), 0 6px 6px rgba(0,0,0,0.21);
