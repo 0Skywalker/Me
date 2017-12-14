@@ -71,6 +71,9 @@ a:visited {
 #myTopics_2 {
   display: none;
 }
+#extract{
+  text-align: center;
+}
 #div_email {
   text-align: center;
   margin: -10px auto;
