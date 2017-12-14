@@ -11,6 +11,7 @@ body {
   background: #ffffff;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
   -webkit-text-size-adjust:none;
 }
 footer {
