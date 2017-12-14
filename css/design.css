@@ -116,7 +116,7 @@ div #projects #mini {
 }
 #projects-article {
   padding-top: 40px;
-  background: #FAFAFA;
+  background: white;
   margin-top: -165px;
   position: relative;
 }
@@ -145,7 +145,7 @@ div #aboutMe img {
 #aboutMe-article {
   padding-top: 40px;
   text-align: center;
-  background: #FAFAFA;
+  background: white;
   margin-top: -165px;
   position: relative;
   font-weight: 100;
@@ -178,103 +178,8 @@ div #aboutMe img {
     -o-border-radius: 50%;
     border-radius: 50%;
 }
-.card {
-  background: white;
-  width: 295px;
-  height: 310px;
-  border-radius: 2px;
-  margin: auto;
-  font-family: 'Roboto Mono', monospace;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  overflow: hidden;
-  position: relative;
-}
 .hide {
   display: none;
-}
-.invisible {
-  opacity: 0;
-}
-.open_card {
-  -webkit-transform:translate(0px, -40px);
-  height: 310px;
-}
-.mini-logo {
-  width: 58px;
-  height: 58px;
-  padding: 6px;
-  padding-top: 8px;
-}
-.mini-screenshot {
-  margin-top: 7px;
-  height: 150px;
-  width: 100px;
-  background: lightgray;
-}
-.title {
-  opacity: .54;
-  font-weight: 100;
-  font-size: 15px;
-}
-.subtitle {
-  opacity: .54;
-  font-weight: 100;
-  font-size: 11px;
-  margin-top: -14px;
-}
-.hr-card{
-  opacity: .44;
-  margin-top: 0px;
-}
-.slider {
-  padding-left: 16px;
-  overflow: auto;
-  white-space: nowrap;
-}
-.description {
-  opacity: .54;
-  font-weight: 100;
-  font-size: 11px;
-  padding-left: 16px;
-  margin-top: 6px;
-}
-.ripple {
-   background-color: rgba(0, 0, 0, 0.10);
-   border-radius: 100%;
-   height: 100px;
-   width: 100px;
-   margin-top: -90px;
-   position: relative;
-   -webkit-transform: scale(0);
-   transform: scale(0);
-}
-.animate {
-   -webkit-animation: ripple 0.8s linear;
-   animation: ripple 0.8s linear;
-}
-.grid {
-  display: flex;
-  display: -webkit-flex;
-  align-items: center;
-  flex-flow: row wrap;
-  padding-bottom: 150px;
-  justify-content: space-around;
-  justify-content: space-between;
-  -webkit-justify-content: space-around;
-}
-@-webkit-keyframes ripple {
-   100% {
-      -webkit-transform: scale(12);
-      transform: scale(12);
-      background-color: transparent;
-   }
-}
-@keyframes ripple {
-   100% {
-      -webkit-transform: scale(12);
-      transform: scale(12);
-      background-color: transparent;
-   }
 }
 
 /*************************************************************************************************************************/
