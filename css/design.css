@@ -185,63 +185,10 @@ div #aboutMe img {
     -o-border-radius: 50%;
     border-radius: 50%;
 }
-.card {
-  background: white;
-  width: 295px;
-  height: 310px;
-  border-radius: 2px;
-  margin: auto;
-  font-family: 'Roboto Mono', monospace;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  overflow: hidden;
-  position: relative;
-}
 .hide {
   display: none;
 }
-.open_card {
-  -webkit-transform:translate(0px, -40px);
-  height: 310px;
-}
-.mini-logo {
-  width: 58px;
-  height: 58px;
-  padding: 6px;
-  padding-top: 8px;
-}
-.mini-screenshot {
-  margin-top: 7px;
-  height: 150px;
-  width: 100px;
-  background: lightgray;
-}
-.title {
-  opacity: .54;
-  font-weight: 100;
-  font-size: 15px;
-}
-.subtitle {
-  opacity: .54;
-  font-weight: 100;
-  font-size: 11px;
-  margin-top: -14px;
-}
-.hr-card{
-  opacity: .44;
-  margin-top: 0px;
-}
-.slider {
-  padding-left: 16px;
-  overflow: auto;
-  white-space: nowrap;
-}
-.description {
-  opacity: .54;
-  font-weight: 100;
-  font-size: 11px;
-  padding-left: 16px;
-  margin-top: 6px;
-}
+
 
 /*************************************************************************************************************************/
 /******************************************** Mobile horizontally or Tablets vertical ************************************/
