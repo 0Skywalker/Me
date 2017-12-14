@@ -74,17 +74,22 @@ a:visited {
 #extract{
   text-align: center;
 }
+#aboutThis{
+  margin-top: -10px;
+}
 #div_email {
   text-align: center;
   margin: -10px auto;
   height: 25px;
   padding-top: 1px;
 }
+#ic_pulse_24{
+}
 #p_email {
   display: none;
   font-family: 'Roboto Mono', monospace;
   font-weight: 100;
-  opacity: 1;
+  opacity: .90;
   text-align: center;
   margin-top: 0px;
 }
