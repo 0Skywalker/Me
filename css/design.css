@@ -76,9 +76,8 @@ a:visited {
 }
 #div_email {
   text-align: center;
-  margin: -10px auto;
+  margin: -15px;
   height: 25px;
-  padding-top: 1px;
 }
 #p_email {
   display: none;
