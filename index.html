@@ -35,9 +35,11 @@
               <table id="myTopics_1" summary="My Topics">
                 <tr>
                   <td>
-                    <div id="projects" class="container btn">
-                        <img src="./assets/images/ic_code-braces_24.svg" alt="Projects">
+                    <a onclick="location.href='./projects.html'">
+                      <div id="projects" class="container btn">
+                          <img src="./assets/images/ic_code-braces_24.svg" alt="Projects">
                       </div>
+                    </a>
                   </td>
                   <td>
                     <h4>Projects</h4>
@@ -50,15 +52,19 @@
                     <h4 style="text-align: right;">Blog</h4>
                   </td>
                   <td>
+                    <a onclick="location.href='https://medium.com/@0Skywalker'">
                       <div id="blog" class="container btn">
                         <img src="./assets/images/ic_medium_24.svg" alt="Blog">
                       </div>
+                    </a>
                   </td>
                 </tr>
                 <tr>
                   <td>
                       <div id="aboutMe" class="container btn">
-                        <img src="./assets/images/ic_fingerprint_24.svg" alt="About Me">
+                        <a onclick="location.href='./about.html'">
+                          <img src="./assets/images/ic_fingerprint_24.svg" alt="About Me">
+                        </a>
                       </div>
                   </td>
                   <td>
@@ -117,7 +123,6 @@
               <!-- End My topics -->
               <!-- End - Visible for devices with screen >768px -->
 
-
               <!-- Start - Extract about this site -->
               <div id="extract" class="container">
                 <br><br><br>
@@ -140,128 +145,6 @@
         </article>
       </section>
       <!-- End Main content -->
-
-
-      <!-- Start Projects -->
-      <section id="projects-content" style="display:none">
-        <article id="projects-article">
-          <h2>Projects¬</h2>
-          <br><br>
-          <div id="findFace" class="card invisible">
-            <table>
-              <tr>
-                <td><img src="./assets/images/all_256.png" class="mini-logo" alt="All"></td>
-                <td><p class="title">Find Face</p><p class="subtitle">It's a game for android systems.</p></td>
-              </tr>
-            </table>
-            <div class="ripple"></div>
-            <div id="card_content">
-              <hr class="hr-card">
-              <div id="screenshots" class="slider">
-                <img src="" class="mini-screenshot">
-                <img src="" class="mini-screenshot">
-              </div>
-              <p class="description">
-                The game was developed using Libgdx.<br>
-                Check it out!
-              </p>
-            </div>
-          </div>
-          <br><br>
-          <div id="Commands-in-the-air" class="card invisible">
-            <table>
-              <tr>
-                <td><img src="./assets/images/airballoon_256.svg" class="mini-logo" alt="ComAir"></td>
-                <td><p class="title">Com Air</p><p class="subtitle">[Research] Control of a trojan without a connection.</p></td>
-              </tr>
-            </table>
-            <div class="ripple"></div>
-            <div id="card_content_2">
-              <hr class="hr-card">
-              <div id="screenshots" class="slider">
-                <img src="" class="mini-screenshot">
-                <img src="" class="mini-screenshot">
-              </div>
-              <p class="description">
-                Program to control a device without a connection.
-              </p>
-            </div>
-          </div>
-          <!-- Button - Go home -->
-          <div class="form-group" style="margin-top: 12%; float:right; position: relative; ">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-              <div id="projects" class="mini-btn">
-                <img id="mini" src="./assets/images/ic_home_24.svg" alt="About Me">
-              </div>
-            </div>
-          </div>
-          <br><br><br><br><br>
-        </article>
-      </section>
-      <!-- End Projects -->
-
-      <!-- Start About Me -->
-      <section id="aboutMe-content" style="display:none">
-        <article id="aboutMe-article">
-          <h2>About･Me¬</h2>
-          <img id="me" src="./assets/images/me_512.png" alt="Me" class="image-cropper rounded">
-          <h4>My name is Alejandro<br>I like the Hacking and the AI</h4><br><br>
-          <img src="./assets/images/ic_atom_36.svg" alt="A little bit about me">
-          <h5>
-            I've always been passionate about<br>
-            computer security and research. I love<br>
-            programming and creating new things.<br>
-            I'm very interested in AI. The machine<br>
-            learning and computer vision are<br>
-            my favorite areas.
-          </h5><br>
-          <img src="./assets/images/ic_school_36.svg" alt="Education">
-          <h5>
-            I study at Tijuana Institute of<br>
-            Technology in Computer Systems<br>
-            Engineering. I'm currently<br>
-            in 7th semester.
-          </h5><br>
-          <img src="./assets/images/ic_dna_36.svg" alt="Skills">
-          <h5>
-            <span> C# WPF </span> <span> C/C++ </span> <span> Python </span><br>
-            <span> Java </span> <span> SQL </span> <span> NoSQL </span> <span> Git </span> <span> OpenCV </span><br>
-            <span> Mobile First </span> <span> HTML5/CSS3 </span><br>
-            <span> Material Design </span> <span> Responsive Design </span><br>
-            <span> Malware Offense </span> <span> Malware Defense </span><br>
-            <span> Exploitation and Ethical Hacking </span><br>
-            <span> Web Hacking </span> <span> Forensic Analysis </span><br>
-            <span> Network Attacks </span>
-          </h5>
-          <br>
-          <img src="./assets/images/ic_rocket_36.svg" alt="When i'm not...">
-          <h5>
-            When I'm not programming or<br>
-            researching, I'm probably watching<br>
-            series, movies or on instagram.
-          </h5><br><br>
-          <h5>If you want follow me...</h5>
-
-          <div id="socialMedia"class="container">
-            <a href="https://github.com/0Skywalker"><img src="./assets/images/ic_github_24.svg" alt="GitHub"></a>
-            <a href="https://twitter.com/0ASkywalker"><img src="./assets/images/ic_twitter_24.svg" alt="Twitter"></a>
-            <a href="https://www.youtube.com/channel/UCsT90o46g1ImRBu95pfoXFQ"><img src="./assets/images/ic_youtube_24.svg" alt="YouTube"></a>
-            <a href="https://www.linkedin.com/in/alejandrochavezgomez/"><img src="./assets/images/ic_linkedin_24.svg" alt="LinkedIn"></a>
-            <a href="https://www.instagram.com/0askywalker/"><img src="./assets/images/ic_instagram_24.svg" alt="Instagram"></a>
-          </div>
-
-          <!-- Button - Go home -->
-          <div class="form-group" style="margin-top: 12%; float: right; position: relative; ">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-              <div id="aboutMe" class="mini-btn">
-                <img id="mini" src="./assets/images/ic_home_24.svg" alt="About Me">
-              </div>
-            </div>
-          </div>
-        </article>
-      </section>
-      <!-- End About Me -->
-
 
       <!-- Start Footer -->
       <footer>
