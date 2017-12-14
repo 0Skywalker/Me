@@ -68,6 +68,9 @@ a:visited {
   font-family: 'Roboto Mono', monospace;
   font-weight: 100;
 }
+#extract{
+  text-align: center;
+}
 #myTopics_2 {
   display: none;
 }
