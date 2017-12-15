@@ -283,23 +283,19 @@ div #aboutMe img {
     width: 800px;
   }
   h4 {
-    font-weight: 100;
     opacity: .9;
   }
   h5 {
-    font-family: 'Roboto Mono', monospace;
     opacity: .9;
-    font-weight: 100;
-    text-align: center;
+  }
+  h6 {
+    opacity: .8;
   }
   table tr td h4 {
     opacity: .9;
   }
   #aboutMe-article h5{
-    margin-top: 5px;
-    font-family: 'Roboto Mono', monospace;
     opacity: .9;
-    font-weight: 100;
   }
 }
 
