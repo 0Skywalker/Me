@@ -103,10 +103,10 @@ img{
   height: 200px;
   width: 200px;
 }
-#socialMedia {
+#contact {
   text-align: center;
 }
-#socialMedia img{
+#contact img{
   padding-top: 15px;
   padding-left: 10px;
   padding-right: 10px;
@@ -206,7 +206,6 @@ div #aboutMe img {
 /******************************************** Mobile horizontally or Tablets vertical ************************************/
 /*************************************************************************************************************************/
 @media (min-width: 768px) {
-
   table tr td h4 {
     opacity: .74;
   }
