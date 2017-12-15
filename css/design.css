@@ -103,10 +103,10 @@ img{
   height: 200px;
   width: 200px;
 }
-#socialMedia {
-  text-align: center;
+#followMe {
+  //text-align: center;
 }
-#socialMedia img{
+#followMe img{
   padding-top: 15px;
   padding-left: 10px;
   padding-right: 10px;
