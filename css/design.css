@@ -9,7 +9,7 @@ header{line-height:7px;height:100px;width:100%;margin-top:25px}body{background:#
   width: 245px;
 }
 
-
+table{background: red;}
 
 .mini-card{
   border-radius: 14px;
@@ -38,8 +38,8 @@ header{line-height:7px;height:100px;width:100%;margin-top:25px}body{background:#
 }
 .card-subtitle{
   font-family: 'Roboto', sans-serif;
-  text-align: left;
-  margin-top: 87px;
+  text-align: justify;
+  margin-top: 85px;
   margin-right: 12px;
   margin-left: 12px;
 }
