@@ -16,19 +16,18 @@ header{line-height:7px;height:100px;width:100%;margin-top:25px}body{background:#
 
 .mini-card{
   border-radius: 14px;
-  //display: table-cell;
   margin-left: 12px;
   margin-top: 12px;
   vertical-align: middle;
-  height: 65px;
-  width: 68px;
+  height: 52px;
+  width: 55px;
   line-height: 0;
   padding-top: 5px;
 }
 .minicard-title{
   font-family: 'Roboto', sans-serif;
   font-weight:700;
-  font-size: 14px;
+  font-size: 11px;
   line-height: 0;
 }
 .card-title{
@@ -42,7 +41,7 @@ header{line-height:7px;height:100px;width:100%;margin-top:25px}body{background:#
 .card-subtitle{
   font-family: 'Roboto', sans-serif;
   text-align: justify;
-  margin-top: 80px;
+  margin-top: 98px;
   margin-right: 12px;
   margin-left: 12px;
 }
@@ -54,8 +53,8 @@ header{line-height:7px;height:100px;width:100%;margin-top:25px}body{background:#
 .bg-color-black{
   background: black;
 }
-.bg-color-alizarin{
-  background: #e74c3c;
+.bg-color-red{
+  background: red;
 }
 .color-white{
   color: white;
@@ -73,7 +72,7 @@ header{line-height:7px;height:100px;width:100%;margin-top:25px}body{background:#
 }
 .card-1:hover{
   //box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  
+
 }
 
 
