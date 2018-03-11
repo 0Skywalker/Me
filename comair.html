@@ -19,7 +19,7 @@
     </header>
 
     <section class="title">
-      <p class="title color-green"><b>COMMANDS IN THE AIR: <span class="black">ATAQUES A SISTEMAS AIR GAPPING</b></span></p>
+      <p class="title green"><b>COMMANDS IN THE AIR: <span class="black">ATAQUES A SISTEMAS AIR GAPPING</b></span></p>
       <hr class="line-short">
     </section>
 
@@ -30,6 +30,72 @@
 
     <section class="content">
       <p class="header">INTRODUCCIÓN</p>
+      <p>
+        Commands in the Air o COMAIR, es el nombre que recibe esta investigación, la cual pretende demostrar e identificar técnicas de ataques a sistemas Air Gapping, con el objetivo de protegerlos contra posibles intrusiones de este tipo en el futuro.<br><br>Este documento expone la primer etapa de esta investigación que aborda la seguridad de los sistemas Air Gapping. En esta fase se expone una técnica ofensiva a este tipo de sistemas utilizando como vector de ataque los SSID (Service Set Identifier) que son identificados por las interfaces de red inalámbricas. En fases posteriores a la investigación, se espera aprovechar otros vectores de ataque, como por ejemplo, las ondas electromagnéticas que emiten algunos de los componentes de los computadores, con el fin de transmitir la información recabada a un receptor, o bien, utilizar señales de luz, señales acústicas, entre otros medios.
+      </p>
+
+      <p class="header">METODOLOGÍA</p>
+      <p>
+        Lo siguiente son los pasos que se utilizaron para demostrar dicha técnica de ataque, basada en los SSIDs capturados por las tarjetas de red inalámbricas:<br><br>
+      </p>
+
+      <p class="sub-header"><i>A. Definición de la idea</i></p>
+      <p>
+        Se pretende desarrollar un programa como prueba de concepto a lo largo de toda la investigación, que atienda a las peticiones que le son solicitadas a través de los SSIDs que son captados por la interfaz de red inalámbrica del equipo comprometido. Estas solicitudes son instrucciones que el programa reconoce y ejecuta en el sistema operativo huésped.<br>
+      </p>
+
+      <p>
+        Según el contexto en el que se esté corriendo el programa, serán los privilegios que tendrán las instrucciones al ser ejecutadas por el sistema operativo. Las instrucciones pueden ser mostrar un mensaje en pantalla o abrir alguna página en el navegador, hasta grabar audio, video o ambos y subir las grabaciones a un servidor FTP, entre otras muchas posibilidades.<br><br>
+        En el esquema anterior, se muestra el ejemplo de un equipo infectado con el malware y un SSID malicioso que contiene una instrucción, que al ser debidamente procesada por el malware, será ejecutada por el sistema operativo, abriendo la página de www.google.com en el navegador por defecto.<br><br>
+      </p>
+
+      <p class="sub-header"><i>B. Análisis del programa</i></p>
+      <p>
+        Al ser la primera fase, el programa tiene ciertas limitantes, por ejemplo:<br>
+        <ul>
+          <li>Solo funciona bajo sistemas operativos Windows.</li>
+          <li>No permanece oculto para el usuario.</li>
+          <li>Solo ejecuta comandos que sean entendidos por la terminal de Windows. Es decir, no incorpora la funcionalidad de mostrar mensajes en pantalla, grabar audio, vídeo o alguna otra característica.</li>
+          <li>No cuenta con la capacidad de ejecutar instrucciones que usen más de una línea.</li>
+          <li>Las instrucciones son ejecutadas con los privilegios que tenga el usuario en turno.</li>
+        </ul>
+        A continuación se describen los módulos y funciones con los que cuenta el programa en esta primer etapa:<br>
+        <ul>
+          <li class="green size18"><b>Main</b></li>
+          <p>Este es el archivo principal. Desde este archivo se hacen las llamadas a los demás módulos.</p>
+        </ul>
+
+        <ul>
+          <li class="green size18"><b>mod_wifi</b></li>
+          <p>Este módulo es responsable de manejar los datos capturados por la interfaz de red inalámbrica. En la siguiente tabla se muestran y describen las funciones contenidas en este módulo.</p>
+        </ul>
+
+        <table>
+          <tr class="text-center">
+            <td colspan="3">TABLA I<br>Módulo de Wi-Fi</td>
+          </tr>
+          <tr>
+            <td class="text-left">Nombre</td>
+            <td class="text-left">Argumentos</td>
+            <td class="text-center">Descripción</td>
+          </tr>
+          <tr>
+            <td><i>scan</i></td>
+            <td>Ninguno</td>
+            <td>
+              Muestra una lista de los SSIDs de las redes inalámbricas que se encuentran dentro del rango de cobertura de la tarjeta de red inalámbrica.
+            </td>
+          </tr>
+          <tr>
+            <td>executeCommand</td>
+            <td>int, char[]</td>
+            <td>Limpia la instrucción y ejecuta el comando capturado con la función scan(). Recibe como parámetros un número (INT) que determina el tipo de instrucción y un arreglo (CHAR) con dicha instrucción.</td>
+          </tr>
+        </table>
+
+
+      </p>
+
     </section>
 
 
