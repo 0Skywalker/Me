@@ -31,17 +31,17 @@ header{line-height:7px;height:100px;width:100%;margin-top:25px}body{background:#
   line-height: 0;
 }
 .card-title{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto:900', sans-serif;
   text-align: left;
-  font-weight: 1000;
-  font-size: 36px;
+  font-weight: 900;
+  font-size: 32px;
   line-height: 0;
   margin-left: 12px;
 }
 .card-subtitle{
   font-family: 'Roboto', sans-serif;
   text-align: justify;
-  margin-top: 92px;
+  margin-top: 82px;
   margin-right: 12px;
   margin-left: 12px;
 }
