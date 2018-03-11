@@ -29,12 +29,12 @@
     </section>
 
     <section class="content">
-      <p class="header">INTRODUCCIÓN</p>
+      <p class="header"><b>INTRODUCCIÓN</b></p>
       <p>
-        Commands in the Air o COMAIR, es el nombre que recibe esta investigación, la cual pretende demostrar e identificar técnicas de ataques a sistemas Air Gapping, con el objetivo de protegerlos contra posibles intrusiones de este tipo en el futuro.<br><br>Este documento expone la primer etapa de esta investigación que aborda la seguridad de los sistemas Air Gapping. En esta fase se expone una técnica ofensiva a este tipo de sistemas utilizando como vector de ataque los SSID (Service Set Identifier) que son identificados por las interfaces de red inalámbricas. En fases posteriores a la investigación, se espera aprovechar otros vectores de ataque, como por ejemplo, las ondas electromagnéticas que emiten algunos de los componentes de los computadores, con el fin de transmitir la información recabada a un receptor, o bien, utilizar señales de luz, señales acústicas, entre otros medios.
+        Commands in the Air o COMAIR, es el nombre que recibe esta investigación, la cual pretende demostrar e identificar técnicas de ataques a sistemas Air Gapping, con el objetivo de protegerlos contra posibles intrusiones de este tipo en el futuro.<br><br>Este documento expone la primer etapa de esta investigación que aborda la seguridad de los sistemas Air Gapping. En esta fase se expone una técnica ofensiva a este tipo de sistemas utilizando como vector de ataque los SSID (Service Set Identifier) que son identificados por las interfaces de red inalámbricas. En fases posteriores a la investigación, se espera aprovechar otros vectores de ataque, como por ejemplo, las ondas electromagnéticas que emiten algunos de los componentes de los computadores, con el fin de transmitir la información recabada a un receptor, o bien, utilizar señales de luz, señales acústicas, entre otros medios.<br><br>
       </p>
 
-      <p class="header">METODOLOGÍA</p>
+      <p class="header"><b>METODOLOGÍA</b></p>
       <p>
         Lo siguiente son los pasos que se utilizaron para demostrar dicha técnica de ataque, basada en los SSIDs capturados por las tarjetas de red inalámbricas:<br><br>
       </p>
@@ -69,7 +69,7 @@
           <li class="green size18"><b>mod_wifi</b></li>
           <p>Este módulo es responsable de manejar los datos capturados por la interfaz de red inalámbrica. En la siguiente tabla se muestran y describen las funciones contenidas en este módulo.</p>
         </ul>
-
+        <br>
         <table>
           <tr class="text-center">
             <td colspan="3">TABLA I<br>Módulo de Wi-Fi</td>
@@ -92,9 +92,40 @@
             <td>Limpia la instrucción y ejecuta el comando capturado con la función scan(). Recibe como parámetros un número (INT) que determina el tipo de instrucción y un arreglo (CHAR) con dicha instrucción.</td>
           </tr>
         </table>
-
-
       </p>
+      <br>
+
+      <p class="sub-header"><i>C. Desarrollo del programa</i></p>
+      <p>
+        El ciclo del programa es el siguiente: Se ejecuta la función principal, la cual manda a llamar a la función scan del módulo de Wi-Fi mod_wifi cada 10,000 milisegundos.<br><br>
+        La función scan utiliza las librerías de windows.h, wlanapi.h, objbase.h y wtypes.h para usar la interfaz de red inalámbrica disponible, lanzar un escaneo y así enlistar los nombres (SSID) de puntos de acceso encontrados dentro del rango de cobertura de la tarjeta. Conforme va enlistando los nombres, va buscando las siguientes cadenas de caracteres: MSGS$, SHOT$, PICT$ y CMDS$, con el propósito de clasificar dicha instrucción y llamar a la función executeCommand, quien se encarga de limpiar la instrucción, removiendo los primeros 5 caracteres que sirven como identificador para la clasificación, y después procede a ejecutarla en el sistema operativo.<br><br>
+        El desarrollo del programa sigue un esquema modular, en donde cada tarea específica que se pretende realizar, será un módulo.<br><br>
+        Se utilizó el entorno de desarrollo integrado (IDE) de Visual Studio Community Edition con licencia vigente de estudiante, por contar con numerosas herramientas para la rápida y eficiente codificación de programas, así como avanzadas herramientas de depuración.<br><br>
+        El lenguaje de programación utilizado fue C++ por su potencia en comparación con otros lenguajes. El compilador usado fue MSBuild.<br><br>
+        El tamaño final del archivo es de 62.0 KB.<br><br>
+      </p>
+
+
+      <p class="header"><b>CONCLUSIÓN</b></p>
+      <p>
+           Se ha demostrado que tener un equipo aislado con interfaz de red inalámbrica puede llegar a ser igual de peligroso que estar conectado a internet. Existen otras técnicas en las que es posible lograr una exfiltración de datos exitosa sin levantar sospechas, por ejemplo, utilizando los incrementos y decrementos en la temperatura de un equipo, o bien manipulando la señal GSM que capta la antena de un teléfono, empleando un firmware instalado en el equipo infectado para utilizar su hardware como una antena GSM, entre otros métodos.<br><br>
+           Sin duda el eslabón más débil siempre será el usuario y por ello es necesario que en todas las organizaciones existan reglas y políticas de seguridad que se actualicen y adapten constantemente a las nuevas amenazas informáticas que van surgiendo a la orden del día, para evitar futuros ciber ataques.<br><br>
+           En las siguientes etapas de la investigación se espera ampliar la compatibilidad con demás sistemas operativos, incorporar nuevas funcionalidades y añadir nuevos vectores de ataque.<br><br>
+      </p>
+
+      <p class="header"><b>REFERENCIAS</b></p>
+      <p>
+        [1] MSDN Microsoft, “WlanGetAvailableNetworkList function” Wireless Networking, Mar. 11, 2018. [Online].
+        Available: https://msdn.microsoft.com/en-us/library/ms706749(VS.85).aspx<br><br>
+      </p>
+      <p>
+        <img class="profile" align="right" hspace="10" vspace="5" src="./assets/images/profile.png" alt="Me">
+        <b>Chávez G. Alejandro</b> nació en Tijuana, Baja California, BC, México en 1995. Es estudiante de 8vo semestre de la carrera de ingeniería en sistemas computacionales con especialidad en bases de datos, en el Instituto Tecnológico de Tijuana desde el año 2014.<br><br>
+        Ha trabajado y creado proyectos que involucran inteligencia artificial, visión por computador, ciberseguridad, big data, UX/UI y aplicaciones para entornos de escritorio y móviles. Algunos de los proyectos que ha desarrollado son una librería de componentes que siguen los lineamientos de Material Design creados por Google, para el lenguaje de programación de C#, utilizando la tecnología de Windows Presentation Foundation (WPF). Entre otros proyectos relacionados con las áreas tecnológicas antes mencionadas.<br><br>
+        Sus intereses de investigación incluyen trabajar con redes de computadoras con un enfoque en ciberseguridad, estadísticas y análisis de datos para la identificación de tendencias,  algoritmos de inteligencia artificial así como la creación de interfaces de usuario atractivas, funcionales y amigables.<br><br>
+      </p>
+
+
 
     </section>
 
