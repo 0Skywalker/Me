@@ -27,13 +27,13 @@ header{line-height:7px;height:100px;width:100%;margin-top:25px}body{background:#
 .minicard-title{
   font-family: 'Roboto', sans-serif;
   font-weight:700;
-  font-size: 11px;
+  font-size: 10px;
   line-height: 0;
 }
 .card-title{
   font-family: 'Roboto', sans-serif;
   text-align: left;
-  font-weight:1000;
+  font-weight: 1000;
   font-size: 36px;
   line-height: 0;
   margin-left: 12px;
@@ -45,7 +45,6 @@ header{line-height:7px;height:100px;width:100%;margin-top:25px}body{background:#
   margin-right: 12px;
   margin-left: 12px;
 }
-
 .card-info{
   font-weight:300;
   font-size: 12px;
