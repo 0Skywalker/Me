@@ -1,5 +1,6 @@
 body{
-  background-color: rgb(255, 249, 237);
+  //background-color: rgb(255, 249, 237);
+  background-color: white;
   padding-top: 5px;
   padding-left: 5px;
   padding-right: 5px;
@@ -88,6 +89,9 @@ header{
 .oldStandardTT{
   font-family: 'Old Standard TT', serif;
 }
+.PTSerif{
+  font-family: 'PT Serif', serif;
+}
 .line-short{
   margin-top: -21px;
   width: 30px;
@@ -113,16 +117,28 @@ header{
   body{
     //background-color: black;
   }
+  .profile{
+    width: 15%;
+    height: 15%;
+  }
 }
 
 @media (min-width:1024px){
   body{
     //background-color: lime;
   }
+  .profile{
+    width: 15%;
+    height: 15%;
+  }
 }
 
 @media (min-width:1200px){
   body{
     //background-color: yellow;
+  }
+  .profile{
+    width: 15%;
+    height: 15%;
   }
 }
