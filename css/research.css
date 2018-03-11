@@ -25,9 +25,10 @@ header{
 
 .cover{
   //background-color: red;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .responsive{
-
   width: 100%;
   height: 50%;
 }
