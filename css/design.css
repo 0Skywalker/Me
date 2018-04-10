@@ -2,16 +2,29 @@ header{line-height:7px;height:100px;width:100%;margin-top:25px}body{background:#
 
 #extract{
   text-align:center;
-  font-family:'Roboto Mono',monospace
+  font-family:'Roboto Mono',monospace;
 }
 
 
-#aboutThis{margin-top:-10px}#div_email{text-align:center;margin:-10px auto;height:25px;padding-top:1px}#p_email{display:none;font-family:'Roboto Mono',monospace;font-weight:100;opacity:.90;text-align:center;margin-top:0}#me{height:200px;width:200px}#followMe img{padding-top:15px;padding-left:10px;padding-right:10px;padding-bottom:30px}#myTopics_2 a{cursor:default}div #projects{background:black}div #projects:hover{box-shadow:0 10px 22px rgba(0,0,0,.21),0 6px 6px rgba(0,0,0,.21)}div #projects img{margin-top:23px}div #projects #mini{margin-top:16px}#projects-article{padding-top:40px;background:white;margin-top:-165px;position:relative}div #blog{background:white}div #blog:hover{box-shadow:0 10px 22px rgba(0,0,0,.21),0 6px 6px rgba(0,0,0,.21)}div #blog img{margin-top:23px}div #aboutMe{background:black}div #aboutMe:hover{box-shadow:0 10px 22px rgba(0,0,0,.21),0 6px 6px rgba(0,0,0,.21)}div #aboutMe img{margin-top:23px}#aboutMe-article{padding-top:40px;text-align:center;background:white;margin-top:-165px;position:relative;font-weight:100;font-family:'Roboto Mono',monospace}#aboutMe-article h5{margin-top:5px;font-family:'Roboto Mono',monospace;opacity:.54;font-weight:100}#go-home{color:black;text-decoration:none}
+#aboutThis{margin-top:-10px}#div_email{text-align:center;margin:-10px auto;height:25px;padding-top:1px}#p_email{display:none;font-family:'Roboto Mono',monospace;font-weight:100;opacity:.90;text-align:center;margin-top:0}#me{height:200px;width:200px}#followMe img{padding-top:15px;padding-left:10px;padding-right:10px;padding-bottom:30px}#myTopics_2 a{cursor:default}div #projects{background:black}div #projects:hover{box-shadow:0 10px 22px rgba(0,0,0,.21),0 6px 6px rgba(0,0,0,.21)}div #projects img{margin-top:23px}div #projects #mini{margin-top:16px}#projects-article{padding-top:40px;background:white;margin-top:-165px;position:relative}div #blog{background:white}div #blog:hover{box-shadow:0 10px 22px rgba(0,0,0,.21),0 6px 6px rgba(0,0,0,.21)}div #blog img{margin-top:23px}div #aboutMe{background:black}div #aboutMe:hover{box-shadow:0 10px 22px rgba(0,0,0,.21),0 6px 6px rgba(0,0,0,.21)}div #aboutMe img{margin-top:23px}#aboutMe-article{padding-top:40px;text-align:center;background:white;margin-top:-165px;position:relative;font-weight:100;font-family:'Roboto Mono',monospace}#aboutMe-article h5{margin-top:5px;font-family:'Roboto Mono',monospace;opacity:.54;font-weight:100}
+#go-home{
+  color:black;
+  text-decoration:none;
 
-.flex{
-  //display: flex;
 }
 
+.box{
+  width: 245px;
+  display:inline-block;
+  height:365px;
+  margin:2rem;
+  position:relative;
+  width:245px;
+}
+.center{
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+}
 .card{
   border-radius:14px;
   display:inline-block;
