@@ -12,14 +12,13 @@ header{line-height:7px;height:100px;width:100%;margin-top:25px}body{background:#
   text-decoration:none;
 
 }
-
+.box-container{
+  margin-top: -100px;
+}
 .box{
-  width: 245px;
-  display:inline-block;
-  height:365px;
-  margin:2rem;
-  position:relative;
-  width:245px;
+  display: inline-block;
+  padding-top:100px;
+
 }
 .center{
   text-align: center;
