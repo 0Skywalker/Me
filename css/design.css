@@ -40,10 +40,9 @@ header{line-height:7px;height:100px;width:100%;margin-top:25px}body{background:#
   user-select:none
 }
 
+.bgimg_findface{background-image:url(../assets/images/bg_findface.png);background-size:cover;}
+.bgimg_0games{background-image:url(../assets/images/bg_0games.png);background-size:cover;}
 .bgimg_comair{background-image:url(../assets/images/bg_wnd-cmd.png);background-size:cover;}
-.bgimg_findface{background-image:url(../assets/images/bg_findface.png);
-  background-size:cover;
-}
 
 
 .mini-card{border-radius:14px;margin-left:12px;margin-top:12px;vertical-align:middle;height:52px;width:55px;line-height:0;padding-top:5px}
